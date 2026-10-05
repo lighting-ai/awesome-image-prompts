@@ -1,0 +1,44 @@
+{
+  "version": "1.0.0",
+  "updatedAt": "2026-10-05T19:15:00+08:00",
+  "categories": [
+    {
+      "id": "outdoor",
+      "name": "户外风格",
+      "nameEn": "Outdoor Style",
+      "description": "旅行、徒步、露营、山海、公路、自然光、户外生活方式相关提示词。",
+      "children": [
+        {
+          "id": "travel-poster",
+          "name": "旅行海报",
+          "nameEn": "Travel Poster"
+        },
+        {
+          "id": "hiking",
+          "name": "徒步登山",
+          "nameEn": "Hiking"
+        },
+        {
+          "id": "camping",
+          "name": "露营",
+          "nameEn": "Camping"
+        },
+        {
+          "id": "road-trip",
+          "name": "公路旅行",
+          "nameEn": "Road Trip"
+        },
+        {
+          "id": "nature-portrait",
+          "name": "自然人像",
+          "nameEn": "Nature Portrait"
+        },
+        {
+          "id": "outdoor-product",
+          "name": "户外产品",
+          "nameEn": "Outdoor Product"
+        }
+      ]
+    }
+  ]
+}

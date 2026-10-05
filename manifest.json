@@ -1,0 +1,17 @@
+{
+  "name": "awesome-image-prompts",
+  "displayName": "Awesome Image Prompts",
+  "description": "A curated prompt library for image generation and image editing products.",
+  "version": "0.1.0",
+  "schemaVersion": "1.0.0",
+  "updatedAt": "2026-10-05T19:15:00+08:00",
+  "categories": "categories.json",
+  "collections": [
+    {
+      "id": "outdoor",
+      "name": "Outdoor Style",
+      "path": "prompts/outdoor.json",
+      "description": "Outdoor, travel, hiking, camping, road trip, natural light, and lifestyle image prompts."
+    }
+  ]
+}
