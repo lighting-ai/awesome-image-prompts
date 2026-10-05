@@ -1,0 +1,327 @@
+{
+  "version": "0.1.0",
+  "updatedAt": "2026-10-05T20:35:00+08:00",
+  "source": {
+    "platform": "xiaohongshu",
+    "collectionGoal": 20,
+    "speedPolicy": "manual-browser-sequential-only",
+    "queries": [
+      "AI 提示词 旅行海报",
+      "AI修图提示词 户外 旅行",
+      "实景延伸 线稿 提示词",
+      "旅行照片 AI 提示词 海报",
+      "跟着插画去旅行 提示词",
+      "照片改造 旅行 AI 提示词"
+    ]
+  },
+  "selectionCriteria": [
+    "Has an explicit prompt, command, or reusable workflow.",
+    "Image style is polished enough for a public prompt library.",
+    "Useful for outdoor, travel, landscape, hiking, camping, road trip, or travel photo remix workflows.",
+    "Has a clear source URL and title.",
+    "Avoids spam, pure clickbait, low-quality examples, and unrelated entertainment posts."
+  ],
+  "statusSummary": {
+    "candidatePool": 99,
+    "verifiedThisBatch": 24,
+    "accepted": 20,
+    "needsReview": 3,
+    "rejected": 1,
+    "blockedBySafetyPage": 1
+  },
+  "accepted": [
+    {
+      "id": "xhs-gathered-scenes-zine-skill",
+      "title": "实景拼贴旅行杂志海报",
+      "sourceUrl": "https://www.xiaohongshu.com/explore/6aa943b2000000002601c12e",
+      "sourceTitle": "这个skill审美恐在你我之上｜附提示词",
+      "author": "魔法肉头儿",
+      "category": "outdoor",
+      "subCategory": "travel-zine",
+      "styleTags": ["旅行影像", "实景拼贴", "手撕纸", "独立杂志", "丝网印刷", "留白"],
+      "needsReferenceImage": true,
+      "quality": "high",
+      "curationNote": "Strong editorial zine look. Good companion to the first line-art travel poster entry."
+    },
+    {
+      "id": "xhs-cream-paper-doodle-travel-poster",
+      "title": "摄影原图 x 奶油纸面涂鸦旅行海报",
+      "sourceUrl": "https://www.xiaohongshu.com/explore/6abcf0bf000000001802b529",
+      "sourceTitle": "国庆旅行照，别再只发九宫格了！📷",
+      "author": "果然多~",
+      "category": "outdoor",
+      "subCategory": "travel-poster",
+      "styleTags": ["旅行海报", "奶油纸", "涂鸦小人", "真实摄影", "旅行手账"],
+      "needsReferenceImage": true,
+      "quality": "high",
+      "curationNote": "Very relevant, high engagement, clear reusable prompt structure."
+    },
+    {
+      "id": "xhs-story-photo-handdrawn-cartoon",
+      "title": "真实摄影 + 手绘卡通故事画面",
+      "sourceUrl": "https://www.xiaohongshu.com/explore/6abb81f2000000001203d276",
+      "sourceTitle": "每张照片都有自己的故事｜又解锁一个提示词",
+      "author": "小莫Design",
+      "category": "outdoor",
+      "subCategory": "story-poster",
+      "styleTags": ["照片故事", "手绘卡通", "小人互动", "视觉转折", "留白"],
+      "needsReferenceImage": true,
+      "quality": "high",
+      "curationNote": "Good narrative prompt. Needs careful rewrite to avoid overly broad copying."
+    },
+    {
+      "id": "xhs-high-end-travel-postcard",
+      "title": "高端编辑设计旅行明信片",
+      "sourceUrl": "https://www.xiaohongshu.com/explore/6aa555c60000000026020f5c",
+      "sourceTitle": "当AI把我的旅行照做成明信片，效果太惊喜了",
+      "author": "沙子旅行日记",
+      "category": "outdoor",
+      "subCategory": "travel-postcard",
+      "styleTags": ["旅行明信片", "摄影出版物", "极简手绘", "纸本插画", "克制色彩"],
+      "needsReferenceImage": true,
+      "quality": "high",
+      "curationNote": "Strong layout and negative-style constraints; source says non-original, so record provenance and rewrite."
+    },
+    {
+      "id": "xhs-travel-memory-checklist-poster",
+      "title": "旅行记忆清单海报",
+      "sourceUrl": "https://www.xiaohongshu.com/explore/6ac0ccd40000000012037d05",
+      "sourceTitle": "国庆旅行照别只发原图！附提示词",
+      "author": "無脑花AI笔记",
+      "category": "outdoor",
+      "subCategory": "travel-journal",
+      "styleTags": ["旅行记忆", "3x3清单", "手绘元素", "风景拆解", "旅行手账"],
+      "needsReferenceImage": true,
+      "quality": "medium-high",
+      "curationNote": "Interesting 3x3 memory checklist format. Needs full prompt completion in later pass."
+    },
+    {
+      "id": "xhs-travel-observation-collage",
+      "title": "旅行观察手记拼贴海报",
+      "sourceUrl": "https://www.xiaohongshu.com/explore/6ab9e050000000001a031333",
+      "sourceTitle": "假期创意涂鸦风景图来了，快去发朋友圈",
+      "author": "Ai绘图找笨笨",
+      "category": "outdoor",
+      "subCategory": "travel-journal",
+      "styleTags": ["观察手记", "剪贴拼贴", "轻水彩", "涂鸦小人", "旅行杂志"],
+      "needsReferenceImage": true,
+      "quality": "high",
+      "curationNote": "Distinct from line-art prompt because it emphasizes collage, soft wash, and doodle figures."
+    },
+    {
+      "id": "xhs-colored-pencil-watercolor-travel-poster",
+      "title": "彩铅水彩旅行日志海报",
+      "sourceUrl": "https://www.xiaohongshu.com/explore/6ab3491e000000001a021f5f",
+      "sourceTitle": "每天学会一个绝美提示词·旅行海报",
+      "author": "AI生图研究所",
+      "category": "outdoor",
+      "subCategory": "travel-poster",
+      "styleTags": ["旅行日志", "彩色铅笔", "水彩素描", "怀旧", "旅行杂志"],
+      "needsReferenceImage": true,
+      "quality": "medium-high",
+      "curationNote": "Useful stylistic variation, but text is more template-like and less original than stronger entries."
+    },
+    {
+      "id": "xhs-photo-line-art-soft-transition",
+      "title": "柔和渐变实景延伸线稿旅行海报",
+      "sourceUrl": "https://www.xiaohongshu.com/explore/6abbc44f000000001b01d8a8",
+      "sourceTitle": "创意虚实结合！旅行风景出片新方式！",
+      "author": "Vaeen Ai Design",
+      "category": "outdoor",
+      "subCategory": "travel-poster",
+      "styleTags": ["实景延伸", "线稿", "渐变过渡", "虚实结合", "小人互动"],
+      "needsReferenceImage": true,
+      "quality": "high",
+      "curationNote": "A refined variant of the first entry, with stronger emphasis on soft transition."
+    },
+    {
+      "id": "xhs-photo-line-art-second-world",
+      "title": "第二世界线稿旅行海报",
+      "sourceUrl": "https://www.xiaohongshu.com/explore/6ab8ff70000000001500bf06",
+      "sourceTitle": "十一风景照可以这么玩｜创意补丁 008",
+      "author": "沐炎的人间补丁",
+      "category": "outdoor",
+      "subCategory": "second-world",
+      "styleTags": ["第二世界", "实景延伸", "线稿人物", "诗意留白", "风景二创"],
+      "needsReferenceImage": true,
+      "quality": "high",
+      "curationNote": "Strong prompt with explicit continuity and physical-logic constraints."
+    },
+    {
+      "id": "xhs-yq-photo-handdrawn-story",
+      "title": "摄影与手绘结合的小故事海报",
+      "sourceUrl": "https://www.xiaohongshu.com/explore/6ab772a00000000015012bf6",
+      "sourceTitle": "十一假期照片可以这么发3️⃣",
+      "author": "YQ",
+      "category": "outdoor",
+      "subCategory": "story-poster",
+      "styleTags": ["摄影手绘", "互动故事", "自然交界", "场景自适应", "极简人物"],
+      "needsReferenceImage": true,
+      "quality": "high",
+      "curationNote": "Good successor to the first YQ post; interaction rules are more flexible."
+    },
+    {
+      "id": "xhs-city-memory-travel-sketchbook",
+      "title": "城市记忆旅行手账立体书",
+      "sourceUrl": "https://www.xiaohongshu.com/explore/6ab8c9d100000000180162d3",
+      "sourceTitle": "学点AI | 把随手拍变成一本旅行手账",
+      "author": "YK AI｜建筑师玩AI",
+      "category": "outdoor",
+      "subCategory": "travel-journal",
+      "styleTags": ["城市旅行", "旅行手账", "立体书", "建筑线稿", "淡彩水彩"],
+      "needsReferenceImage": true,
+      "quality": "high",
+      "curationNote": "Very useful for city-travel photos and architecture scenes."
+    },
+    {
+      "id": "xhs-second-world-travel-photo",
+      "title": "第二世界旅行照片二创海报",
+      "sourceUrl": "https://www.xiaohongshu.com/explore/6ab38cf9000000000a01f3a5",
+      "sourceTitle": "提示词|30s拯救旅游废片",
+      "author": "百分百提示词",
+      "category": "outdoor",
+      "subCategory": "second-world",
+      "styleTags": ["废片拯救", "第二世界", "旅行照片", "纸张留白", "结构转译"],
+      "needsReferenceImage": true,
+      "quality": "medium-high",
+      "curationNote": "Comments contain multi-part prompt; needs another pass to recover all parts."
+    },
+    {
+      "id": "xhs-travel-person-zine",
+      "title": "人物旅行照杂志拼贴",
+      "sourceUrl": "https://www.xiaohongshu.com/explore/6a7b154c000000002500c248",
+      "sourceTitle": "旅行-人物照codex生图提示词怎么写",
+      "author": "哈基米和好天气",
+      "category": "outdoor",
+      "subCategory": "travel-zine",
+      "styleTags": ["人物旅行照", "手撕纸", "旅行手账", "人物保真", "复古拼贴"],
+      "needsReferenceImage": true,
+      "quality": "medium-high",
+      "curationNote": "Good meta-prompt guidance for person-in-landscape photos."
+    },
+    {
+      "id": "xhs-forest-cinematic-mist-edit",
+      "title": "徒步森林电影雾气修图",
+      "sourceUrl": "https://www.xiaohongshu.com/explore/6a65cc1d0000000002003c00",
+      "sourceTitle": "下次徒步旅行可以试试这个 AI 修图提示词",
+      "author": "paulpayasalad",
+      "category": "outdoor",
+      "subCategory": "hiking",
+      "styleTags": ["徒步", "森林氛围", "电影感", "雾气", "高级调色"],
+      "needsReferenceImage": true,
+      "quality": "medium-high",
+      "curationNote": "Less poster-like, but strong outdoor photo edit preset."
+    },
+    {
+      "id": "xhs-outdoor-watercolor-collage",
+      "title": "户外照水彩拼贴海报",
+      "sourceUrl": "https://www.xiaohongshu.com/explore/6a85b7a00000000033033f8a",
+      "sourceTitle": "不用codex，户外照也能一键变水彩拼贴",
+      "author": "立夏的岛",
+      "category": "outdoor",
+      "subCategory": "travel-zine",
+      "styleTags": ["户外摄影", "水彩插画", "拼贴", "旅行zine", "配色色块"],
+      "needsReferenceImage": true,
+      "quality": "high",
+      "curationNote": "Distinct workflow with watercolor panel and layout instructions."
+    },
+    {
+      "id": "xhs-outdoor-sticker-peel-video",
+      "title": "户外人物贴纸撕揭视频效果",
+      "sourceUrl": "https://www.xiaohongshu.com/explore/6a49d2ec0000000021014041",
+      "sourceTitle": "最适合户外人的特效出现了（附口令）",
+      "author": "小鱼不淋雨",
+      "category": "outdoor",
+      "subCategory": "outdoor-video",
+      "styleTags": ["户外视频", "贴纸撕揭", "转场", "人物分离", "短视频"],
+      "needsReferenceImage": true,
+      "quality": "medium-high",
+      "curationNote": "Video-oriented but valuable if the library later supports image-to-video prompts."
+    },
+    {
+      "id": "xhs-travel-line-art-two-methods",
+      "title": "旅行照实景延伸线稿双教程",
+      "sourceUrl": "https://www.xiaohongshu.com/explore/6abc7b91000000001403b153",
+      "sourceTitle": "🗺️十一旅行照这样玩｜附两种教程·提示词",
+      "author": "多米的AI日记",
+      "category": "outdoor",
+      "subCategory": "travel-poster",
+      "styleTags": ["旅行照", "实景延伸", "线稿", "双教程", "留白"],
+      "needsReferenceImage": true,
+      "quality": "medium-high",
+      "curationNote": "Another reliable line-art variant; later de-duplicate against YQ/珍珠老师 versions."
+    },
+    {
+      "id": "xhs-photographic-object-second-world",
+      "title": "立体摄影物体第二世界海报",
+      "sourceUrl": "https://www.xiaohongshu.com/explore/6aafe728000000002601b294",
+      "sourceTitle": "第二世界海报生成教程",
+      "author": "Ssean",
+      "category": "outdoor",
+      "subCategory": "second-world",
+      "styleTags": ["第二世界", "摄影物体", "暖米白纸张", "立体拼贴", "极简线稿人物", "主体锁定"],
+      "needsReferenceImage": true,
+      "quality": "high",
+      "curationNote": "Strong source prompt: original photo on top, warm paper below, core scene translated into a tactile photographic object with tiny line-art human interactions."
+    },
+    {
+      "id": "xhs-oriental-blockprint-travel-journal",
+      "title": "东方套色版画旅行手账",
+      "sourceUrl": "https://www.xiaohongshu.com/explore/6ab9e280000000001b0219c2",
+      "sourceTitle": "假期随手拍，被我做成了旅行手账",
+      "author": "阿瑞AIGC",
+      "category": "outdoor",
+      "subCategory": "travel-journal",
+      "styleTags": ["旅行手账", "东方套色版画", "复古绘本", "上下版式", "纸张纹理", "旅行照片二创"],
+      "needsReferenceImage": true,
+      "quality": "high",
+      "curationNote": "High engagement and very clear workflow. Good for architecture, streets, mountains, boats, and person-in-travel snapshots."
+    },
+    {
+      "id": "xhs-acrylic-handdrawn-cover-poster",
+      "title": "手绘丙烯拼图海报",
+      "sourceUrl": "https://www.xiaohongshu.com/explore/6a86bb2d0000000028004db7",
+      "sourceTitle": "亲测好看！手绘丙烯拼图海报提示词",
+      "author": "Fakefilm",
+      "category": "outdoor",
+      "subCategory": "travel-poster",
+      "styleTags": ["手绘丙烯", "独立出版物", "上下拼图", "小主体大留白", "纸感插画", "旅行海报"],
+      "needsReferenceImage": true,
+      "quality": "high",
+      "curationNote": "Complete prompt, clean structure, and broad fit for outdoor/travel photos; useful as a calmer alternative to line-art extension styles."
+    }
+  ],
+  "needsReview": [
+    {
+      "id": "xhs-quanzhou-travel-sketch-poster",
+      "title": "泉州旅行速写海报",
+      "sourceUrl": "https://www.xiaohongshu.com/explore/6a13e97f000000003601cd59",
+      "sourceTitle": "GPT Image2提示词模板：泉州旅行速写海报",
+      "author": "阿勇的提示词星球",
+      "reason": "Search result looks relevant, but current extraction captured unrelated comments. Needs manual re-open and image-page inspection."
+    },
+    {
+      "id": "xhs-travel-photo-story-growth",
+      "title": "国庆旅行照长出故事",
+      "sourceUrl": "https://www.xiaohongshu.com/explore/6abf9eea0000000015017ab0",
+      "sourceTitle": "不会画画，也能让国庆旅行照长出故事",
+      "author": "AI驯兽师Lynn",
+      "reason": "Images look likely useful, but visible text did not include enough prompt content in this pass."
+    },
+    {
+      "id": "xhs-first-note-duplicate",
+      "title": "实景延伸线稿旅行海报",
+      "sourceUrl": "https://www.xiaohongshu.com/explore/6ab3dfd3000000000a023361",
+      "sourceTitle": "睡前一个提示词：线稿旅行海报",
+      "author": "珍珠老师の资源分享",
+      "reason": "Prompt is essentially the same as the first library item; keep as attribution/reference, but avoid duplicate official entry."
+    }
+  ],
+  "rejected": [
+    {
+      "title": "这个假期包出图的！skill已奉上！",
+      "sourceUrl": "https://www.xiaohongshu.com/explore/6abcb524000000001303d22e",
+      "reason": "Triggered Xiaohongshu safety restriction page during verification; skipped to avoid risk."
+    }
+  ]
+}
