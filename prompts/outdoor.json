@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "updatedAt": "2026-10-09T15:52:56+08:00",
+  "updatedAt": "2026-10-09T16:00:00+08:00",
   "category": {
     "id": "outdoor",
     "name": "户外风格",
@@ -116,6 +116,65 @@
       "license": "source-attributed-curation",
       "createdAt": "2026-10-09T15:52:56+08:00",
       "updatedAt": "2026-10-09T15:52:56+08:00"
+    },
+    {
+      "id": "outdoor-geo-map-travel-photo-auto-locate",
+      "title": "地理坐标自动识别旅行摄影",
+      "titleEn": "Geo Coordinate Travel Photo (Auto Locate)",
+      "category": "outdoor",
+      "subCategory": "geo-map",
+      "scene": "旅行照片再创作（自动识别拍摄地点）",
+      "description": "在原条目基础上加入地点信息分档降级逻辑：有坐标就按真实数据绘制，只有城市级地标明确时才由模型自行判定地名，判断不出时退化为无地名地理视觉（等高线、经纬网格、罗盘），并显式禁止编造坐标与地名。",
+      "language": "zh-CN",
+      "modelHints": [
+        "image-edit",
+        "gpt-image",
+        "nano-banana",
+        "reference-image"
+      ],
+      "needsReferenceImage": true,
+      "variantOf": "outdoor-geo-map-travel-photo",
+      "tags": [
+        "旅行摄影",
+        "地理坐标",
+        "自动识别地点",
+        "地标识别",
+        "去幻觉",
+        "无地名兜底",
+        "等高线",
+        "经纬网格",
+        "地图叠加",
+        "editorial",
+        "travel-zine",
+        "参考图编辑"
+      ],
+      "prompt": "请把这张旅行摄影作品制作成一张具有独立杂志（Editorial Photography / Travel Zine）风格的地理视觉作品。\n\n【一、地点信息，按可用性依次降级】\n\n1. 当我提供了 GPS 坐标、GeoJSON 或地图截图时：严格按我提供的数据绘制街道走向、海岸线曲率和地形轮廓，不得自行编造或美化地理形状。\n2. 当我提供了城市或景点名称时：使用该地点真实的地理特征，例如海岸线走向、街道网格方向、山脊线和水体位置。\n3. 当我没有提供任何地点信息时：请你先判断拍摄地点，但只有画面中存在明确可辨认的城市级地标（例如埃菲尔铁塔、圣家堂、金门大桥、东方明珠）才标注具体城市名。\n4. 当你判断不出具体地点，或只有模糊猜测时：不要猜，改用无地名地理视觉方案 —— 只叠加抽象等高线、经纬网格、方位罗盘，或与画面中山脊线、海岸线走向一致的剪影，画面中不出现任何具体地名、坐标和比例尺。\n\n【二、绝对禁止】\n\n不得编造精确 GPS 坐标、街道名称、地名标注和比例尺数字。任何出现在画面中的地名都必须与照片里真实可辨的地标一致。无法确认时宁可留空或改用无地名方案，也不要给出看起来合理但错误的地点。\n\n【三、核心要求】\n\n1. 尽可能完整保留原始照片，不重新创作人物、建筑、山体、天空，不改变原有色彩和光影。\n2. 根据确定的地点，添加具有真实地理特征的地图元素，例如海岸线、城市街道、山脉地形、等高线或步道。\n3. 地图采用透明 PNG 图层叠加的视觉效果，避免传统方形地图卡片。\n4. 地图优先放在天空、海面或其他负空间，不遮挡摄影主体。\n5. 地图占画面约 15%–25%，可以根据构图自由调整。\n6. 使用细线条、低饱和度配色、少量英文地名和精致的地理标记。\n7. 用一个小红点标出拍摄地点；无地名方案中改为罗盘中心或经纬网格交点，不标注具体坐标。\n8. 保留照片原始画幅比例，不强制裁切成正方形。\n9. 整体风格克制、自然、有纸张印刷的轻微质感，不要添加大面积标题或多余装饰。\n\n【四、输出顺序】\n\n如果你支持文字输出，请先用一行给出地点判定：地点名称 + 置信度（高／中／低）+ 判断依据。若置信度为低，直接执行第一条里的无地名方案，不要在图中标注任何地名。\n\n地图模式请根据照片情况自动选择，如城市、山川、海岸线等。\n请优先保证原摄影作品的完整性，地图只是辅助视觉元素，采用独立图层合成，而不是重新生成整张照片。",
+      "negativePrompt": "编造精确 GPS 坐标、编造街道名与地名、给无法确认的地点硬标注城市名、比例尺数字与真实地理不符、在非地标照片上标注具体街道、重新生成或替换原照片主体、不透明方形地图卡片、地图遮挡摄影主体、大面积标题文字、多余装饰与边框、水印、强制裁切为正方形。",
+      "usageNotes": [
+        "推荐两段式调用：先用纯文本单独问模型“这是哪里 + 置信度 + 依据”，再按结果选择精确模式或无地名模式。让同一个请求既识别地点又生成图片时，模型为了画面好看往往会编造一个坐标。",
+        "用户上传相机原图时可在服务端读取 EXIF 的 GPSLatitude／GPSLongitude，逆地理编码成城市名后填入地点占位符。平台转码图没有 GPS：实测小红书 CDN 图的 EXIF 只剩 ColorSpace 与宽高。",
+        "模型本身读不到 EXIF，任何元数据都必须由外部解析后以文字注入提示词。",
+        "判断不出地点时保留无地名方案，避免把普通山景标成某个具体而错误的城市。",
+        "完整管线、代码骨架与验证方法见 docs/auto-locate.md。"
+      ],
+      "source": {
+        "platform": "xiaohongshu",
+        "url": "https://www.xiaohongshu.com/explore/6ac76768000000000100a641",
+        "title": "用 GPT 给照片加上地理坐标 📍",
+        "author": "siyuhuh",
+        "publishedAt": "2026-10-08",
+        "note": "Derived variant of outdoor-geo-map-travel-photo from the same note. The original prompt requires a manually filled location placeholder; this variant replaces it with a confidence-gated auto-location ladder and explicit anti-hallucination rules. Sample cover is the note's own Barcelona cover, which is itself an auto-located result (labeled Parc Guell and Sagrada Familia)."
+      },
+      "assets": {
+        "cover": "../assets/outdoor/geo-map-travel-photo.webp",
+        "images": [
+          "../assets/outdoor/geo-map-travel-photo.webp"
+        ]
+      },
+      "preview": "![地理坐标自动识别旅行摄影](../assets/outdoor/geo-map-travel-photo.webp)",
+      "license": "source-attributed-curation",
+      "createdAt": "2026-10-09T16:00:00+08:00",
+      "updatedAt": "2026-10-09T16:00:00+08:00"
     }
   ]
 }

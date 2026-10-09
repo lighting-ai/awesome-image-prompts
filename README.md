@@ -39,6 +39,18 @@ This prompt turns an uploaded travel or outdoor photo into a 2:3 poster: the top
 
 This prompt keeps a travel photo intact and overlays a translucent real-world map (city streets, coastline, contour lines, mountain terrain, trails) into negative space such as sky or sea, marking the shooting location with a single small red dot and adding a few low-saturation English place labels for an editorial travel-zine look. Fill in the shooting location in the `【】` placeholder before sending.
 
+### 地理坐标自动识别旅行摄影
+
+![地理坐标自动识别旅行摄影](assets/outdoor/geo-map-travel-photo.webp)
+
+- Category: `outdoor`
+- Subcategory: `geo-map`
+- Variant of: `outdoor-geo-map-travel-photo`
+- Needs reference image: `true`
+- Source: [小红书笔记](https://www.xiaohongshu.com/explore/6ac76768000000000100a641)
+
+Same visual style, but the location is no longer a manual placeholder. The prompt uses a graded ladder: use supplied GPS/GeoJSON when present, otherwise let the model name the place only when a clearly identifiable city-level landmark is in frame, and fall back to a nameless geo-visual (contour lines, graticule, compass) when confidence is low. Fabricated coordinates, street names and scale numbers are explicitly forbidden. The pipeline for reading EXIF and reverse-geocoding coordinates lives in [docs/auto-locate.md](docs/auto-locate.md).
+
 ## Schema
 
 Each item in `prompts/*.json` should include:
@@ -48,6 +60,7 @@ Each item in `prompts/*.json` should include:
 - `category` and `subCategory`: category IDs from `categories.json`.
 - `modelHints`: model or workflow hints such as `image-edit`, `gpt-image`, `nano-banana`, or `reference-image`.
 - `needsReferenceImage`: whether the prompt expects an uploaded image.
+- `variantOf`: optional ID of the base prompt when this record is an improved variant.
 - `tags`: searchable tags.
 - `prompt`: positive prompt text.
 - `negativePrompt`: things to avoid.
