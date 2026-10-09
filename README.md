@@ -41,7 +41,7 @@ This prompt keeps a travel photo intact and overlays a translucent real-world ma
 
 ### 地理坐标自动识别旅行摄影
 
-![地理坐标自动识别旅行摄影](assets/outdoor/geo-map-travel-photo.webp)
+![地理坐标自动识别旅行摄影](assets/outdoor/geo-map-auto-locate.webp)
 
 - Category: `outdoor`
 - Subcategory: `geo-map`

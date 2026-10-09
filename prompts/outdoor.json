@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "updatedAt": "2026-10-09T16:00:00+08:00",
+  "updatedAt": "2026-10-09T16:55:58+08:00",
   "category": {
     "id": "outdoor",
     "name": "户外风格",
@@ -163,18 +163,18 @@
         "title": "用 GPT 给照片加上地理坐标 📍",
         "author": "siyuhuh",
         "publishedAt": "2026-10-08",
-        "note": "Derived variant of outdoor-geo-map-travel-photo from the same note. The original prompt requires a manually filled location placeholder; this variant replaces it with a confidence-gated auto-location ladder and explicit anti-hallucination rules. Sample cover is the note's own Barcelona cover, which is itself an auto-located result (labeled Parc Guell and Sagrada Familia)."
+        "note": "Derived variant of outdoor-geo-map-travel-photo from the same note. The original prompt requires a manually filled location placeholder; this variant replaces it with a confidence-gated auto-location ladder and explicit anti-hallucination rules. Cover is a separate shot from the same note (Barcelona with eight labeled landmarks plus scale bar) so the two records stay visually distinct in galleries."
       },
       "assets": {
-        "cover": "../assets/outdoor/geo-map-travel-photo.webp",
+        "cover": "../assets/outdoor/geo-map-auto-locate.webp",
         "images": [
-          "../assets/outdoor/geo-map-travel-photo.webp"
+          "../assets/outdoor/geo-map-auto-locate.webp"
         ]
       },
-      "preview": "![地理坐标自动识别旅行摄影](../assets/outdoor/geo-map-travel-photo.webp)",
+      "preview": "![地理坐标自动识别旅行摄影](../assets/outdoor/geo-map-auto-locate.webp)",
       "license": "source-attributed-curation",
       "createdAt": "2026-10-09T16:00:00+08:00",
-      "updatedAt": "2026-10-09T16:00:00+08:00"
+      "updatedAt": "2026-10-09T16:55:58+08:00"
     }
   ]
 }
