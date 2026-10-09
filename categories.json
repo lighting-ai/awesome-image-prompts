@@ -37,6 +37,11 @@
           "id": "outdoor-product",
           "name": "户外产品",
           "nameEn": "Outdoor Product"
+        },
+        {
+          "id": "geo-map",
+          "name": "地理地图叠加",
+          "nameEn": "Geo Map Overlay"
         }
       ]
     }

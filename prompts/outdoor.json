@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "updatedAt": "2026-10-05T19:15:00+08:00",
+  "updatedAt": "2026-10-09T15:52:56+08:00",
   "category": {
     "id": "outdoor",
     "name": "户外风格",
@@ -59,6 +59,63 @@
       "license": "source-attributed-curation",
       "createdAt": "2026-10-05T19:15:00+08:00",
       "updatedAt": "2026-10-05T19:15:00+08:00"
+    },
+    {
+      "id": "outdoor-geo-map-travel-photo",
+      "title": "地理坐标叠加旅行摄影",
+      "titleEn": "Geo Coordinate Editorial Travel Photo",
+      "category": "outdoor",
+      "subCategory": "geo-map",
+      "scene": "旅行照片再创作（地理信息叠加）",
+      "description": "把旅行摄影作品作为完整基底，在天空、海面等负空间叠加半透明真实地图元素（城市街道、海岸线、等高线、山体地形、步道），并用一个小红点标出拍摄地点的 Editorial / Travel Zine 风格地理视觉作品。",
+      "language": "zh-CN",
+      "modelHints": [
+        "image-edit",
+        "gpt-image",
+        "nano-banana",
+        "reference-image"
+      ],
+      "needsReferenceImage": true,
+      "tags": [
+        "旅行摄影",
+        "地理坐标",
+        "地图叠加",
+        "等高线",
+        "海岸线",
+        "城市地图",
+        "地图设计",
+        "editorial",
+        "travel-zine",
+        "杂志风",
+        "负空间",
+        "参考图编辑"
+      ],
+      "prompt": "请帮我把这张旅行摄影作品制作成一张具有独立杂志（Editorial Photography / Travel Zine）风格的地理视觉作品。\n\n拍摄地点：【填写城市、景点或 GPS 坐标】\n\n核心要求：\n\n1. 尽可能完整保留原始照片，不重新创作人物、建筑、山体、天空，不改变原有色彩和光影。\n2. 根据拍摄地点，添加具有真实地理特征的地图元素，例如海岸线、城市街道、山脉地形、等高线或步道。\n3. 地图采用透明 PNG 图层叠加的视觉效果，避免传统方形地图卡片。\n4. 地图优先放在天空、海面或其他负空间，不遮挡摄影主体。\n5. 地图占画面约 15%–25%，可以根据构图自由调整。\n6. 使用细线条、低饱和度配色、少量英文地名和精致的地理标记。\n7. 用一个小红点标出拍摄地点。如果没有准确 GPS，请只标注大致区域，不要伪造精确坐标。\n8. 保留照片原始画幅比例，不强制裁切成正方形。\n9. 整体风格克制、自然、有纸张印刷的轻微质感，不要添加大面积标题或多余装饰。\n\n地图模式请根据照片情况自动选择，如城市、山川、海岸线等。\n请优先保证原摄影作品的完整性，地图只是辅助视觉元素，采用独立图层合成，而不是重新生成整张照片。",
+      "negativePrompt": "重新生成或替换原照片主体、改写原有色彩与光影、整张照片被重绘、不透明方形地图卡片、地图遮挡摄影主体、地图覆盖超过约三分之一画面、伪造精确 GPS 坐标、地名标注错误、过度饱和配色、粗重线条、大面积标题文字、多余装饰与边框、水印、强制裁切为正方形。",
+      "usageNotes": [
+        "先上传一张旅行、城市、山景或海边照片，再把拍摄地点填入提示词里的【】占位符。",
+        "提示词要求保留原始摄影内容，适合支持参考图编辑能力的图像模型，例如 gpt-image 或 nano-banana。",
+        "没有准确 GPS 时按提示词要求只标注大致区域，避免模型编造精确坐标。",
+        "地图元素建议以透明图层方式叠加在负空间，效果取决于模型的多图层合成与排版能力。"
+      ],
+      "source": {
+        "platform": "xiaohongshu",
+        "url": "https://www.xiaohongshu.com/explore/6ac76768000000000100a641",
+        "title": "用 GPT 给照片加上地理坐标 📍",
+        "author": "siyuhuh",
+        "publishedAt": "2026-10-08",
+        "note": "Curated from a public Xiaohongshu note (16 images, cover = Barcelona city shot with an overlaid map). Prompt lightly proofread for two typos; wording and structure preserved. The note mentions the author's photography portfolio siyuphotos.whothree.space."
+      },
+      "assets": {
+        "cover": "../assets/outdoor/geo-map-travel-photo.webp",
+        "images": [
+          "../assets/outdoor/geo-map-travel-photo.webp"
+        ]
+      },
+      "preview": "![地理坐标叠加旅行摄影](../assets/outdoor/geo-map-travel-photo.webp)",
+      "license": "source-attributed-curation",
+      "createdAt": "2026-10-09T15:52:56+08:00",
+      "updatedAt": "2026-10-09T15:52:56+08:00"
     }
   ]
 }

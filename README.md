@@ -13,9 +13,9 @@ The repository is designed to be both human-readable and product-friendly:
 
 | ID | Name | File | Description |
 | --- | --- | --- | --- |
-| `outdoor` | 户外风格 / Outdoor Style | `prompts/outdoor.json` | Outdoor, travel, hiking, camping, road trip, natural light, and lifestyle image prompts. |
+| `outdoor` | 户外风格 / Outdoor Style | `prompts/outdoor.json` | Outdoor, travel, hiking, camping, road trip, natural light, geo-map overlays, and lifestyle image prompts. |
 
-## First Prompt
+## Featured Prompts
 
 ### 实景延伸线稿旅行海报
 
@@ -27,6 +27,17 @@ The repository is designed to be both human-readable and product-friendly:
 - Source: [小红书笔记](https://www.xiaohongshu.com/explore/6ab3b664000000000100acfe)
 
 This prompt turns an uploaded travel or outdoor photo into a 2:3 poster: the top half preserves the original photo, while one real element from the photo continues into the lower half as black line art and interacts with a tiny pen-drawn figure.
+
+### 地理坐标叠加旅行摄影
+
+![地理坐标叠加旅行摄影](assets/outdoor/geo-map-travel-photo.webp)
+
+- Category: `outdoor`
+- Subcategory: `geo-map`
+- Needs reference image: `true`
+- Source: [小红书笔记](https://www.xiaohongshu.com/explore/6ac76768000000000100a641)
+
+This prompt keeps a travel photo intact and overlays a translucent real-world map (city streets, coastline, contour lines, mountain terrain, trails) into negative space such as sky or sea, marking the shooting location with a single small red dot and adding a few low-saturation English place labels for an editorial travel-zine look. Fill in the shooting location in the `【】` placeholder before sending.
 
 ## Schema
 
