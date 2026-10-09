@@ -51,6 +51,17 @@ This prompt keeps a travel photo intact and overlays a translucent real-world ma
 
 Same visual style, but the location is no longer a manual placeholder. The prompt uses a graded ladder: use supplied GPS/GeoJSON when present, otherwise let the model name the place only when a clearly identifiable city-level landmark is in frame, and fall back to a nameless geo-visual (contour lines, graticule, compass) when confidence is low. Fabricated coordinates, street names and scale numbers are explicitly forbidden. The pipeline for reading EXIF and reverse-geocoding coordinates lives in [docs/auto-locate.md](docs/auto-locate.md).
 
+## Community Picks
+
+`prompts/outdoor.json` also holds 20 outdoor prompts curated from public Xiaohongshu notes (published 2026-07 through 2026-10), covering postcard diptychs, photo collage, geo map overlays, magazine-look retouching and color grade transfer. Every record keeps the original author, the note URL and the publication date.
+
+Transcription rules:
+
+- The prompt text is transcribed verbatim from the note body. Nothing was rewritten, reworded or extended.
+- Only the author's intro chatter, promotional lines and hashtags in front of the prompt were removed.
+- Two notes whose prompt lived inside an image (or in the comments) were dropped instead of being stored empty.
+- Covers are 800px WebP thumbnails; the original note keeps the full-resolution version.
+
 ## Schema
 
 Each item in `prompts/*.json` should include:

@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "updatedAt": "2026-10-09T16:55:58+08:00",
+  "updatedAt": "2026-10-09T18:37:57+08:00",
   "category": {
     "id": "outdoor",
     "name": "户外风格",
@@ -175,6 +175,983 @@
       "license": "source-attributed-curation",
       "createdAt": "2026-10-09T16:00:00+08:00",
       "updatedAt": "2026-10-09T16:55:58+08:00"
+    },
+    {
+      "id": "outdoor-postcard-00c248",
+      "title": "旅行-人物照codex生图提示词怎么写",
+      "titleEn": "Travel Photo Postcard",
+      "category": "outdoor",
+      "subCategory": "postcard",
+      "scene": "旅行照片再创作（明信片/双联海报）",
+      "description": "分享照片转手撕纸拼贴风的提示词写法，分人物、风景、逆光、横版四类给示范。",
+      "language": "zh-CN",
+      "modelHints": [
+        "image-edit",
+        "gpt-image",
+        "nano-banana",
+        "reference-image"
+      ],
+      "needsReferenceImage": true,
+      "tags": [
+        "户外",
+        "旅行摄影",
+        "用转场的方式打开照片",
+        "AI画图",
+        "codex",
+        "我的地图拼贴照",
+        "为山峰做一次创作",
+        "跟着兴趣去旅行",
+        "postcard",
+        "社区精选",
+        "参考图编辑"
+      ],
+      "prompt": "skill：scenes-gathered-zine-v1-3\n作者：\n一开始只是想懒得p旅行照，想做得特别一点，结果越试越上头，比做实验还有意思\n不过同时也发现，不同人用出的效果差异很大，发现除了skill本身以外，自己添加的提示词也很重要：如果是一般性的旅游照，重点其实就是人物别乱改，背景大胆点。\n\n如果照片里有人，比如站在湖边、草原、雪山前（本文大部分展示图片）：\n核心人物保持摄影真实，表情、姿态、服装不要改变；背景可以压成明亮纯色色块；保留湖面、山脊、草地、道路这些大结构；撕纸边缘沿湖岸线、山脊线、道路或树枝走；画面里加入少量手绘线条、风向虚线、微型文字。\n这样的人物周围会有一种旅行手账、独立杂志内页的感觉（虽然人脸这块还是有点奇怪）\n\n风景照怎么写（p8）\n如果照片本身没有人，重点在峡谷、云层、河流、雪山，就别让它乱加人物。可以写：突出原图里最震撼的自然结构：大峡谷、山体体量、云层光束、河流走势；撕纸沿峡谷边缘、河道和山脊展开；保留原图构图，不新增主体；环境可以压成复古纸面、铅笔线和明亮色块。\n我做峡谷那张的时候，发现“明确告诉它震撼点在哪里”很重要。比如直接说“大峡谷和云层中打下来的阳光是重点”，效果会比只说“做得震撼一点”稳定很多。\n想要复古手撕纸感\n这个方向适合做封面、手账页、明信片：生成复古手撕皮纹纸拼贴风；画面保留不规则手撕破口，露出部分原图实景；纸面使用粗糙做旧牛皮纸肌理；被遮住的景物用浅灰铅笔线勾勒；左上角留白，放一个从原图提炼出来的极简水彩图标；下方加入复古打字机英文小字。\n这种会更安静一点，有点旧书页、旅行档案、地理笔记的味道。\n\n如果是逆光人像（如p9）\n比如头发被风吹起来、阳光从后面打过来，可以写得更具体：保留人物真实面部和姿态；突出柔和背光、发丝边缘光和飘动感；背景里杂乱的栅栏、招牌、复杂枝条可以适当弱化；环境变成明亮纸面、植物色块和手绘线条；整体更轻盈、生动。这个适合原图本来就有一点光感的照片，做出来会比较有呼吸感。\n\n横版大场景（如p10）\n雪山、湖泊、草原这种横版照片，特别加一句：保持原图横向比例；进一步突出山体大小和空间纵深；人物可以显得更小，山体更宏伟；撕纸沿山脊、云层、草地边缘穿行。",
+      "source": {
+        "platform": "xiaohongshu",
+        "url": "https://www.xiaohongshu.com/explore/6a7b154c000000002500c248",
+        "title": "旅行-人物照codex生图提示词怎么写",
+        "author": "哈基米和好天气",
+        "publishedAt": "2026-08-11",
+        "note": "Community pick from Xiaohongshu (15 images in the original note). Prompt transcribed verbatim from the note text — no rewriting, only the author's intro chatter and hashtags were removed. Attribution stays with the original author."
+      },
+      "assets": {
+        "cover": "../assets/outdoor/xhs-postcard-00c248.webp",
+        "images": [
+          "../assets/outdoor/xhs-postcard-00c248.webp"
+        ]
+      },
+      "preview": "![旅行-人物照codex生图提示词怎么写](../assets/outdoor/xhs-postcard-00c248.webp)",
+      "license": "source-attributed-curation",
+      "createdAt": "2026-10-09T18:37:57+08:00",
+      "updatedAt": "2026-10-09T18:37:57+08:00"
+    },
+    {
+      "id": "outdoor-geo-map-038fc4",
+      "title": "image2提示词：将任意照片变成地理杂志",
+      "titleEn": "Travel Photo Geo Map",
+      "category": "outdoor",
+      "subCategory": "geo-map",
+      "scene": "旅行照片再创作（地理地图叠加）",
+      "description": "将输入照片改造成国际自然地理探索杂志封面，保留原貌并加金边、刊名与副标题。",
+      "language": "zh-CN",
+      "modelHints": [
+        "image-edit",
+        "gpt-image",
+        "nano-banana",
+        "reference-image"
+      ],
+      "needsReferenceImage": true,
+      "tags": [
+        "户外",
+        "旅行摄影",
+        "AI生图",
+        "AI绘画",
+        "image_2",
+        "geo-map",
+        "社区精选",
+        "参考图编辑"
+      ],
+      "prompt": "将输入照片重新设计为一张高端国际自然与地理探索摄影杂志封面。\n\n保持原始照片中的山脉、雪峰、森林、草甸、天空、道路以及整体地理环境真实自然，不改变原始场景的核心结构。提升摄影质量，但不要凭空改变地貌，不要添加不存在的建筑、人物或动物。\n\n整体呈现顶级自然纪录片摄影的视觉品质：真实自然的光线、壮阔的山地尺度、细腻丰富的自然纹理、真实的大气透视、清晰的远景层次、克制而高级的色彩、自然的蓝天与绿色植被、细腻的雪山纹理，以及具有专业户外摄影作品般的真实感。\n\n构图采用经典自然地理摄影的视觉方式：宽阔的前景草甸形成空间纵深，中景森林山坡连接远处的巨大雪山群，突出山脉的宏伟尺度与自然力量。保留原照片的主要山峰轮廓和视觉关系，同时适当优化构图、曝光、动态范围和细节，使其具有专业杂志摄影作品的品质。\n\n整体色彩真实、自然、克制，避免过度HDR、过度饱和和不真实的电影滤镜。天空呈现自然渐变，雪山具有丰富的明暗层次，森林和草甸保留真实植物纹理。使用高动态范围摄影效果、自然光影、真实大气雾化、细腻胶片颗粒和高解析度细节。\n\n将照片设计成一张现代国际自然探索类摄影杂志封面：\n- 画面四周使用简洁、醒目的金黄色细边框作为视觉识别元素\n- 保持整体版式简洁、高级、现代\n- 顶部设置简洁的杂志刊名，但不要使用任何真实存在的杂志名称、Logo或品牌标识\n- 根据照片内容生成一个具有自然探索感的主标题\n- 添加2–3条简短的纪录片式副标题\n- 可以加入日期、期号和少量编辑信息\n- 所有文字采用专业国际杂志排版方式\n- 文字不要遮挡雪山主体\n- 不要添加大量文字\n\n主题围绕“高山、雪峰、荒野、自然探索、地球景观、人与自然、远方与未知”展开。\n\n最终效果是一张真实存在的高端国际自然探索摄影杂志封面：专业、克制、真实、壮阔、具有探索精神和纪录片气质。\n\n避免：\n不要复制任何现实杂志的Logo、刊名、字体、版式或独特品牌设计；\n不要出现真实杂志名称；\n不要直接模仿任何特定出版物的封面；\n不要卡通化、插画化或过度AI化；\n不要过度HDR；\n不要过度饱和；\n不要改变原始山脉的基本形态；\n不要添加原照片不存在的重要主体。",
+      "source": {
+        "platform": "xiaohongshu",
+        "url": "https://www.xiaohongshu.com/explore/6ac799fa0000000014038fc4",
+        "title": "image2提示词：将任意照片变成地理杂志",
+        "author": "胖虎FatTiger",
+        "publishedAt": "2026-10-08",
+        "note": "Community pick from Xiaohongshu (3 images in the original note). Prompt transcribed verbatim from the note text — no rewriting, only the author's intro chatter and hashtags were removed. Attribution stays with the original author."
+      },
+      "assets": {
+        "cover": "../assets/outdoor/xhs-geo-map-038fc4.webp",
+        "images": [
+          "../assets/outdoor/xhs-geo-map-038fc4.webp"
+        ]
+      },
+      "preview": "![image2提示词：将任意照片变成地理杂志](../assets/outdoor/xhs-geo-map-038fc4.webp)",
+      "license": "source-attributed-curation",
+      "createdAt": "2026-10-09T18:37:57+08:00",
+      "updatedAt": "2026-10-09T18:37:57+08:00"
+    },
+    {
+      "id": "outdoor-collage-033eea",
+      "title": "AI的意义在于激发你对生活的想象",
+      "titleEn": "Travel Photo Collage",
+      "category": "outdoor",
+      "subCategory": "collage",
+      "scene": "旅行照片再创作（实景拼贴）",
+      "description": "把上传摄影作品做成3:4竖版上下1:1海报，下半按照片结构生成第二世界与小人物。",
+      "language": "zh-CN",
+      "modelHints": [
+        "image-edit",
+        "gpt-image",
+        "nano-banana",
+        "reference-image"
+      ],
+      "needsReferenceImage": true,
+      "tags": [
+        "户外",
+        "旅行摄影",
+        "gpt",
+        "ai摄影",
+        "提示词",
+        "审美积累",
+        "AI生图",
+        "aigc",
+        "生活记录",
+        "摄影",
+        "AI新手村",
+        "WeeklyPick"
+      ],
+      "prompt": "请基于我上传的摄影作品，制作一张3:4竖版的「第二世界」摄影二创海报。\n整体严格上下 1:1：\n上半部分尽可能忠实保留原照片，不改变主体、人物动作、空间关系、色彩和自然光影，只做必要的等比裁切。\n下半部分使用自然的暖米白纸张背景，保留大量留白。\n但不要直接套用“撕纸＋小人”的固定模板。\n生成之前，请先认真观察这张照片：\n1.找出照片里最有辨识度的视觉结构，而不只是识别题材。\n例如水波、道路、倒影、云层、枝条、光束、影子、建筑边缘、人物动作、山脊等。\n2.问自己：\n“如果照片里的这个结构真的变成一种可以被触碰、使用或改变的东西，它最自然会是什么？\"由此找到只属于这张照片的“第二世界”。\n可能发生的变化包括但不限于：\n拉、推、拨开、进入、打捞、测量、修补、展开、铺平、攀爬、连接、收集.但不要机械复用这些动作。\n3.摄影剪贴的形状本身也必须参与解释照片。\n不要默认使用普通不规则撕纸边。\n水可以成为一块小水域，光可以成为某种可被借用的东西，道路可以继续延伸，云或树枝也可能形成新的空间关系。\n具体答案必须从这一张照片本身产生。4. 可以加入0-3个极简黑色手绘线稿人物。\n小人不是装饰，而是这个第二世界里的“使用者”。\n他们必须真正与照片中的物理结构互动，而不是站在旁边摆姿势。\n如果原照片已经有很强的人物动作，可以不新增小人。\n5.根据这张照片具体发生的事情，生成一句简短英文手写旁白。\n语气自然、轻松、有一点幽默或画外音感。\n不要写成励志语录，也不要重复“Same..\ndifferent.\" 这类固定句式。\n文字位置根据画面留白和动作方向决定，不固定在某个角落。\n整体风格：\n真实摄影＋米白纸张＋极简黑线涂鸦，\n干净、明亮、克制、有轻微手工拼贴感和独立杂志感。\n不要：\n商业广告感、复杂插画、密集小人、固定撕纸模板、重复动作、为了好看随意添加树叶星星擅自改变原照片色彩或重新设计摄影内容。\n最重要的原则:不要装饰照片。\n先理解照片，再发现它里面原本就可能存在的另一个世界。\n理想结果应该让人看到后觉得:\n\"原来这张照片本来就可以这样理解。\"",
+      "source": {
+        "platform": "xiaohongshu",
+        "url": "https://www.xiaohongshu.com/explore/6ab50c330000000014033eea",
+        "title": "AI的意义在于激发你对生活的想象",
+        "author": "脉冲失联",
+        "publishedAt": "2026-09-24",
+        "note": "Community pick from Xiaohongshu (8 images in the original note). Prompt transcribed verbatim from the note text — no rewriting, only the author's intro chatter and hashtags were removed. Attribution stays with the original author."
+      },
+      "assets": {
+        "cover": "../assets/outdoor/xhs-collage-033eea.webp",
+        "images": [
+          "../assets/outdoor/xhs-collage-033eea.webp"
+        ]
+      },
+      "preview": "![AI的意义在于激发你对生活的想象](../assets/outdoor/xhs-collage-033eea.webp)",
+      "license": "source-attributed-curation",
+      "createdAt": "2026-10-09T18:37:57+08:00",
+      "updatedAt": "2026-10-09T18:37:57+08:00"
+    },
+    {
+      "id": "outdoor-postcard-020f5c",
+      "title": "当AI把我的旅行照做成明信片，效果太惊喜了",
+      "titleEn": "Travel Photo Postcard",
+      "category": "outdoor",
+      "subCategory": "postcard",
+      "scene": "旅行照片再创作（明信片/双联海报）",
+      "description": "把上传照片做成3:4竖版双联艺术海报，上半保留原图、下半极简手绘插画。",
+      "language": "zh-CN",
+      "modelHints": [
+        "image-edit",
+        "gpt-image",
+        "nano-banana",
+        "reference-image"
+      ],
+      "needsReferenceImage": true,
+      "tags": [
+        "户外",
+        "旅行摄影",
+        "跟着插画去旅行",
+        "海报制作",
+        "风景插画",
+        "以旅行见世界",
+        "旅行明信片",
+        "全世界旅行",
+        "为山峰做一次创作",
+        "postcard",
+        "社区精选",
+        "参考图编辑"
+      ],
+      "prompt": "请将每张上传的照片分别制作成一张独立的高端编辑设计海报，不要拼接多张照片。\n【整体版式】\n*严格采用 3:4 竖版构图。\n*画面上下各占 50%，两部分色彩统一、叙事连贯，呈现独立艺术出版物或摄影画册质感。\n【上半部分：原始摄影】\n尽可能忠实保留原始照片，包括：\n*主体身份、面部特征、身体比例\n*姿态、表情、服装与物体\n*原始构图、空间关系和拍摄视角\n*真实纹理、自然光影、氛围与色彩基调\n仅进行轻微、克制的调色，使其具有独立摄影出版物质感，保持自然真实。若比例不合适，可自然周围环境，但必须无缝真实。不得拉伸、扭曲、替换或改变主体，也不要裁掉重要内容。\n【下半部分：极简手绘纸本插画】\n提取照片中最具辨识度的元素，诠释为极简手绘插画，保留：\n*核心主体及轮廓\n*关键姿态或动作\n*重要物体\n*人物、物体与环境的主要叙事关系\n大幅简化画面，仅保留能让人立即认出原照片的必要信息。\n插画风格：\n*暖米白或天然白色粗糙纸张背景\n*细腻、略带不规则感的手绘线条\n*少量边缘清晰的平涂丙烯色块\n*可见纸张纤维、干燥笔触与手工痕迹\n*略微不规则的有机边缘\n*克制而真实的手工瑕疵\n主体应小巧、居中，仅占下半部分约 10%–20%，周围保留大量留白，仅用少量线条或色块暗示环境。\n【色彩】\n从原始照片提取主色，压缩为不超过四种主要颜色。色彩克制、协调且有辨识度，使用大胆但受控的平面色块，同时保留纸张颗粒与手工笔触。\n【文字】\n仅在适合画面时加入少量简洁文字，如地点、年份、数字、物体名称或短标题。文字应小巧低调，自然融入留白。无法确定准确文字时不要添加。禁止无意义字符、虚假文字、标志、签名或水印。\n【整体气质】\n安静、诗意、克制、精致、自然、松弛且富有艺术感。\n核心概念：\n“一个很小的主体，被大片留白包围。”\n最终应像精心设计的独立艺术出版物封面，非商业广告或通用海报模板。\n【避免】\n避免彩色铅笔、蜡笔、晕染水彩、纯线稿、复杂写实插画、厚重油画、过度光滑的数字绘画、3D 渲染、商业卡通、可爱吉祥物、电商广告感、复杂装饰、拥挤构图和过多文字。",
+      "source": {
+        "platform": "xiaohongshu",
+        "url": "https://www.xiaohongshu.com/explore/6aa555c60000000026020f5c",
+        "title": "当AI把我的旅行照做成明信片，效果太惊喜了",
+        "author": "沙子旅行日记",
+        "publishedAt": "2026-09-12",
+        "note": "Community pick from Xiaohongshu (9 images in the original note). Prompt transcribed verbatim from the note text — no rewriting, only the author's intro chatter and hashtags were removed. Attribution stays with the original author."
+      },
+      "assets": {
+        "cover": "../assets/outdoor/xhs-postcard-020f5c.webp",
+        "images": [
+          "../assets/outdoor/xhs-postcard-020f5c.webp"
+        ]
+      },
+      "preview": "![当AI把我的旅行照做成明信片，效果太惊喜了](../assets/outdoor/xhs-postcard-020f5c.webp)",
+      "license": "source-attributed-curation",
+      "createdAt": "2026-10-09T18:37:57+08:00",
+      "updatedAt": "2026-10-09T18:37:57+08:00"
+    },
+    {
+      "id": "outdoor-travel-poster-03833c",
+      "title": "把旅行照做成会呼吸的城市画册，附提示词",
+      "titleEn": "Travel Poster",
+      "category": "outdoor",
+      "subCategory": "travel-poster",
+      "scene": "旅行照片再创作（旅行海报）",
+      "description": "将城市或风景照片做成3:4竖版双联海报，上半原图、下半抽象艺术插画。",
+      "language": "zh-CN",
+      "modelHints": [
+        "image-edit",
+        "gpt-image",
+        "nano-banana",
+        "reference-image"
+      ],
+      "needsReferenceImage": true,
+      "tags": [
+        "户外",
+        "旅行摄影",
+        "AI绘画",
+        "AI生图",
+        "PixPix",
+        "旅行照片",
+        "照片玩法",
+        "旅行手账",
+        "海报设计",
+        "AI设计",
+        "摄影排版",
+        "旅行灵感"
+      ],
+      "prompt": "请将我上传的单张城市 / 风景照片，制作成一张 3:4 竖版高级艺术海报。\n整体风格为：minimal editorial poster, poetic city illustration, contemporary art book aesthetic, Scandinavian minimalism, Japanese editorial design, soft gouache illustration, abstract cityscape, quiet luxury poster, refined print design.\n画面采用严格的上下 50% / 50% 分区结构。\n上半部分：真实摄影\n完整保留原照片中的主体、构图、建筑、天空、山体、水面、灯光、云层、月亮及空间关系。\n不要重新设计主体，不改变真实结构，仅进行轻微电影感调色。\n整体保持：低饱和、自然、安静、克制、真实摄影质感。色彩以雾蓝灰、暖米白、烟灰、柔和暖黄为主。不要过度 HDR，不要强锐化，不要明显 AI 重绘感。\n下半部分：抽象艺术插画\n根据上半部分照片中最具辨识度的景物进行艺术化提炼，而不是逐像素临摹。\n提取建筑轮廓、山脉、海岸、水面、街道、桥梁、天空等核心元素，并重新简化为：\n几何色块、单色细线、点描、颗粒、波纹、轨迹、柔软横向笔触、地形纹理。\n插画风格为：soft gouache, dry brush texture, watercolor-like opacity, subtle paper grain, hand-painted editorial illustration, matte printed texture.\n保留明显的米白纸张肌理与大量留白。\n不要明显描边，不要卡通，不要 3D，不要赛博朋克，不要矢量图标感，不要复杂装饰。\n整体构图疏朗、平衡、安静、诗意、现代。",
+      "source": {
+        "platform": "xiaohongshu",
+        "url": "https://www.xiaohongshu.com/explore/6a900d0f000000002003833c",
+        "title": "把旅行照做成会呼吸的城市画册，附提示词",
+        "author": "小鲨鱼",
+        "publishedAt": "2026-08-31",
+        "note": "Community pick from Xiaohongshu (10 images in the original note). Prompt transcribed verbatim from the note text — no rewriting, only the author's intro chatter and hashtags were removed. Attribution stays with the original author."
+      },
+      "assets": {
+        "cover": "../assets/outdoor/xhs-travel-poster-03833c.webp",
+        "images": [
+          "../assets/outdoor/xhs-travel-poster-03833c.webp"
+        ]
+      },
+      "preview": "![把旅行照做成会呼吸的城市画册，附提示词](../assets/outdoor/xhs-travel-poster-03833c.webp)",
+      "license": "source-attributed-curation",
+      "createdAt": "2026-10-09T18:37:57+08:00",
+      "updatedAt": "2026-10-09T18:37:57+08:00"
+    },
+    {
+      "id": "outdoor-geo-map-030d55",
+      "title": "提示词分享",
+      "titleEn": "Travel Photo Geo Map",
+      "category": "outdoor",
+      "subCategory": "geo-map",
+      "scene": "旅行照片再创作（地理地图叠加）",
+      "description": "生成4:5竖版电影感旅行海报，需填入地点名称，含留白构图、地理数据与杂志排版。",
+      "language": "zh-CN",
+      "modelHints": [
+        "image-edit",
+        "gpt-image",
+        "nano-banana",
+        "reference-image"
+      ],
+      "needsReferenceImage": true,
+      "tags": [
+        "户外",
+        "旅行摄影",
+        "geo-map",
+        "社区精选",
+        "参考图编辑"
+      ],
+      "prompt": "创建一张关于 [地点名称] 的电影感极简旅行海报。\n整体风格应融合 高端《国家地理》封面质感、奢华杂志编辑设计、现代环境叙事视觉，呈现一种高级、克制、具有探索精神的旅行宣传海报效果。\n画面构图\n竖版海报比例，4:5。\n画面下方中部放置一个具有纪念碑感的核心主体，占据视觉中心。\n上半部分保留大面积留白，营造宏大、安静、深远的空间感。\n使用超大号压缩无衬线字体展示地点名称，使标题自然融入背景环境之中。\n整体布局干净，带有信息图表式设计感。\n构图对称、平衡，具有超高端杂志封面审美。\n环境与氛围\n突出该地点最具代表性的自然特征。\n使用超写实风景摄影风格。\n画面具有电影级尺度感和空间纵深。\n加入大气薄雾、柔和体积光、真实环境纹理。\n展现强烈的地域感、自然史意义和地质震撼感。\n字体与信息系统\n使用巨大的压缩无衬线标题字体，标题几乎贯穿海报主体高度。\n标题需要半透明、低对比度地融入环境中，而不是简单覆盖在画面上。\n加入少量科学注释、地理坐标、地理数据标签。\n加入海拔、深度、地貌、气候、生物群落等信息。\n信息层级极简，排版留白高级，具有奢华编辑设计感。\n色彩风格\n使用符合该地点自然环境的专属色彩。\n整体色彩柔和，有自然渐变。\n电影级调色，低饱和、高级、克制。\n高动态范围，真实大气透视效果。\n色调应具有高级旅行摄影与奢华印刷质感。\n设计细节\n加入地理坐标。\n加入科学测量数据。\n加入极简线条分隔符。\n加入小型信息标签。\n加入环境统计数据。\n加入探索感 UI 元素。\n整体具有博物馆级平面设计品质。\n质量要求\n超精细，超写实。\n高级海报设计。\n杂志级编辑摄影。\n奢华印刷品质。\n8K 细节。\n清晰锐利。\n电影级光影。\n获奖级旅行广告视觉。\n---\n可以直接替换：\n[地点名称] = 张家界 / 冰岛 / 富士山 / 黄石国家公园 / 珠穆朗玛峰 / 大峡谷 / 青海湖 / 敦煌鸣沙山 等。",
+      "source": {
+        "platform": "xiaohongshu",
+        "url": "https://www.xiaohongshu.com/explore/6a21a6250000000036030d55",
+        "title": "提示词分享",
+        "author": "Ai小项目成长星球",
+        "publishedAt": "2026-06-05",
+        "note": "Community pick from Xiaohongshu (1 images in the original note). Prompt transcribed verbatim from the note text — no rewriting, only the author's intro chatter and hashtags were removed. Attribution stays with the original author."
+      },
+      "assets": {
+        "cover": "../assets/outdoor/xhs-geo-map-030d55.webp",
+        "images": [
+          "../assets/outdoor/xhs-geo-map-030d55.webp"
+        ]
+      },
+      "preview": "![提示词分享](../assets/outdoor/xhs-geo-map-030d55.webp)",
+      "license": "source-attributed-curation",
+      "createdAt": "2026-10-09T18:37:57+08:00",
+      "updatedAt": "2026-10-09T18:37:57+08:00"
+    },
+    {
+      "id": "outdoor-postcard-015a5e",
+      "title": "一天解锁一个提示词 旅游照秒变明信片",
+      "titleEn": "Travel Photo Postcard",
+      "category": "outdoor",
+      "subCategory": "postcard",
+      "scene": "旅行照片再创作（明信片/双联海报）",
+      "description": "将上传照片做成3:4竖版上下50%艺术海报，上半原图、下半手绘纸质插画。",
+      "language": "zh-CN",
+      "modelHints": [
+        "image-edit",
+        "gpt-image",
+        "nano-banana",
+        "reference-image"
+      ],
+      "needsReferenceImage": true,
+      "tags": [
+        "户外",
+        "旅行摄影",
+        "AI工具",
+        "用二次构图拯救旅行废片",
+        "AI生成",
+        "howto过春天",
+        "AI插画",
+        "postcard",
+        "社区精选",
+        "参考图编辑"
+      ],
+      "prompt": "提示词：\n制作一张独立高端编辑艺术海报。每张上传照片单独生成，不要拼贴。\n画面比例严格为 3:4 竖版。将画面水平平均分为上下两个区域，上下高度各占50%，形成统一的艺术出版物封面。\n上半部分：真实摄影\n使用原始照片作为主体，最大程度保持真实：\n保留人物/物体身份、面部特征、身体比例、姿态、表情、服装、物品和空间关系\n保持原始构图、自然光线、真实阴影和摄影质感\n仅进行轻微高级编辑调色，使其具有独立杂志、艺术画册、当代摄影作品的感觉\n保持真实自然，不要过度美化或改变主体\n如需适配3:4比例，可自然延展环境背景，但不能改变主体\n下半部分：手绘纸质艺术插画\n将照片中的核心元素转化为极简手绘纸质插画。\n保留：\n最具辨识度的主体轮廓\n核心动作或姿态\n重要物体\n原照片中的故事关系\n风格：\n手绘线条，略微不规则\n少量平面丙烯色块\n粗糙纸张纹理\n可见手工笔触\n简洁、有温度、有轻微不完美感\n插画主体要：\n小尺寸\n居中\n占下半部分约10%-20%\n周围保持大量留白\n背景使用：\n温暖白纸\n米白纸张\n极简艺术书封质感\n色彩与文字\n从原照片提取颜色，将插画限制为最多4种主要颜色。\n整体色彩： 克制、高级、自然、和谐。\n可加入少量极简文字（标题、地点、年份或关键词），但不要强行添加。\n最终视觉方向\n整体像一本独立艺术出版物封面：\n上半部分： 真实、高级、安静的摄影作品。\n下半部分： 由照片提炼出的微型手工视觉诗。\n核心感觉：\n安静、诗意、极简、艺术、纯净、高级、有故事感。\n重点： 小主体 + 大面积留白 + 摄影真实感 + 手工插画质感。\n避免：\n彩铅、蜡笔、水彩晕染、纯线稿、复杂插画、油画感、3D效果、商业卡通、电商广告风、过度装饰。",
+      "source": {
+        "platform": "xiaohongshu",
+        "url": "https://www.xiaohongshu.com/explore/6a9e553a0000000026015a5e",
+        "title": "一天解锁一个提示词 旅游照秒变明信片",
+        "author": "蛋挞挞在进步",
+        "publishedAt": "2026-09-07",
+        "note": "Community pick from Xiaohongshu (4 images in the original note). Prompt transcribed verbatim from the note text — no rewriting, only the author's intro chatter and hashtags were removed. Attribution stays with the original author."
+      },
+      "assets": {
+        "cover": "../assets/outdoor/xhs-postcard-015a5e.webp",
+        "images": [
+          "../assets/outdoor/xhs-postcard-015a5e.webp"
+        ]
+      },
+      "preview": "![一天解锁一个提示词 旅游照秒变明信片](../assets/outdoor/xhs-postcard-015a5e.webp)",
+      "license": "source-attributed-curation",
+      "createdAt": "2026-10-09T18:37:57+08:00",
+      "updatedAt": "2026-10-09T18:37:57+08:00"
+    },
+    {
+      "id": "outdoor-photo-edit-0261d7",
+      "title": "用提示词给照片随便添几笔｜创意补丁 019",
+      "titleEn": "Magazine Look Photo Edit",
+      "category": "outdoor",
+      "subCategory": "photo-edit",
+      "scene": "旅行照片再创作（杂志感修图）",
+      "description": "在原照片上叠加极简白色连续线稿角色并与其互动，需选择仙女、精灵或小动物。",
+      "language": "zh-CN",
+      "modelHints": [
+        "image-edit",
+        "gpt-image",
+        "nano-banana",
+        "reference-image"
+      ],
+      "needsReferenceImage": true,
+      "tags": [
+        "户外",
+        "旅行摄影",
+        "为山峰做一次创作",
+        "aha这也是艺术",
+        "AI生图",
+        "AI新手村",
+        "AI教程",
+        "AI进化生活howto",
+        "提示词",
+        "创意灵感",
+        "AI设计",
+        "photo-edit"
+      ],
+      "prompt": "✅提示词：\n基于唯一真实原照，创作“真实摄影 × 极简白色线稿角色”混合媒介画面，竖版3:4。完整保留原照片的场景结构、物体位置、透视、光影、真实质感与原有色彩，仅允许自然裁切或少量环境延展；不得重绘摄影背景或新增写实物体。\n先分析照片中最具辨识度的线条、几何结构、留白与情绪，将现实物体巧妙联想为日常用品或趣味道具，形成自然、有趣的视觉隐喻。\n从唯美仙女、可爱精灵、小动物等形象中选择最适合画面的一个主要角色，放置于合适的留白区域。远景可采用超大比例，形成鲜明的大小反差。角色必须与真实物体产生清晰合理的互动，如缝补、编织、托举、环抱、照明、指路、演奏等，动作一眼可懂，不得悬空摆姿势。\n【线稿风格——最高优先级】\n采用极简单线条绘本风格（Minimal Continuous Line Drawing），线条数量比常规插画减少约70%。以少量流畅、舒展的长曲线勾勒角色外形、动态与情绪，像用白色马克笔寥寥几笔画在照片上。优先保留整体剪影、头部轮廓、肢体姿势与互动动作，不追求完整解剖和精细刻画。\n头发概括为2–3组大曲线，面部仅保留必要表情；翅膀如有，只勾勒简洁外缘；衣服仅表现整体形状，不描绘繁复褶皱。允许线条自然断开，不必处处闭合。禁止密集发丝、羽翼纹理、花纹、排线、重复轮廓、装饰性曲线和复杂光效。\n角色线条统一为清晰纯白、轻微手绘起伏的细线，内部完全透明，无填色、阴影、黑色描边或大面积光晕。互动道具同样保持极简，只有必要时才加入极小面积暖黄色。\n整体强调“大轮廓、少线条、强互动、大留白”，兼具摄影纪实感、绘本童趣与高级编辑插画质感。宁可少画，不要画满；不加文字、边框、水印或多余装饰。",
+      "source": {
+        "platform": "xiaohongshu",
+        "url": "https://www.xiaohongshu.com/explore/6ac76586000000001a0261d7",
+        "title": "用提示词给照片随便添几笔｜创意补丁 019",
+        "author": "沐炎的人间补丁",
+        "publishedAt": "2026-10-08",
+        "note": "Community pick from Xiaohongshu (18 images in the original note). Prompt transcribed verbatim from the note text — no rewriting, only the author's intro chatter and hashtags were removed. Attribution stays with the original author."
+      },
+      "assets": {
+        "cover": "../assets/outdoor/xhs-photo-edit-0261d7.webp",
+        "images": [
+          "../assets/outdoor/xhs-photo-edit-0261d7.webp"
+        ]
+      },
+      "preview": "![用提示词给照片随便添几笔｜创意补丁 019](../assets/outdoor/xhs-photo-edit-0261d7.webp)",
+      "license": "source-attributed-curation",
+      "createdAt": "2026-10-09T18:37:57+08:00",
+      "updatedAt": "2026-10-09T18:37:57+08:00"
+    },
+    {
+      "id": "outdoor-photo-edit-02476f",
+      "title": "AI治好了我的近视，废片秒变电影感氛围大片",
+      "titleEn": "Magazine Look Photo Edit",
+      "category": "outdoor",
+      "subCategory": "photo-edit",
+      "scene": "旅行照片再创作（杂志感修图）",
+      "description": "把上传照片转成虚幻引擎5级AAA游戏CG风格风景图，只强化光影质感不改构图。",
+      "language": "zh-CN",
+      "modelHints": [
+        "image-edit",
+        "gpt-image",
+        "nano-banana",
+        "reference-image"
+      ],
+      "needsReferenceImage": true,
+      "tags": [
+        "户外",
+        "旅行摄影",
+        "ai修图体验",
+        "电影感",
+        "gpt4",
+        "AI绘画有点东西",
+        "p图教程",
+        "调色",
+        "摄影后期",
+        "榨干设备howto",
+        "旅游编辑部",
+        "photo-edit"
+      ],
+      "prompt": "将上传的图像转换为 AAA 级游戏 CG 渲染风格的景观画面。优先保持原始纵横比、主体构图、透视关系、主要景观元素的位置关系与画面叙事一致；所有风格化增强只能在不改变原图核心内容的前提下进行。\n\n画面风格与质量要求：\n- 呈现虚幻引擎 5 级别的高端游戏视觉质量，整体效果逼真、清晰、干净、清新，具有 HDR 质感。\n- 使用电影级照明：清晰的定向阳光、强烈但自然的明暗对比、明显的长阴影、可见的体积光。\n- 保持明亮通透的氛围，高曝光但高光不过曝，半透明高光保留细节。\n- 暗部保持干净、有层次，不发灰、不脏乱。\n- 色彩使用自然且生动的饱和度，避免过度艳丽或失真。\n\n天空与空间表现：\n- 在不改变原图天空区域结构和整体构图的前提下，优化或补充清澈的蓝天与柔软、立体、层次分明的云层；如果原图没有明显天空区域，不要强行重构画面。\n- 强化空间深度与景深层次，远景使用清晰的空气透视效果。\n- 通过前景、中景、远景的深度分层增强画面的纵深感。\n\n地面与细节：\n- 提升地面和环境材质的真实细节与质感。\n- 在地面加入微妙的反光亮点，营造高级视觉质感，但不要让地面看起来过于潮湿或像积水。\n- 保留原图中主要景观元素的位置关系和视觉连贯性。\n\n限制要求：\n- 不添加文字、水印、边框、UI 元素、标识、虚构角色、额外建筑、额外车辆或其他与原图无关的物体。\n- 不改变原始图像的纵横比、裁切范围和主体大小比例。\n- 不破坏原图的整体构图、透视关系、主要内容、主体数量、主体身份与关键位置关系。\n- 若风格增强要求与原图内容保真冲突，以保留原图内容和构图为最高优先级。",
+      "source": {
+        "platform": "xiaohongshu",
+        "url": "https://www.xiaohongshu.com/explore/6a108998000000000802476f",
+        "title": "AI治好了我的近视，废片秒变电影感氛围大片",
+        "author": "吃饱了睡饱了吃",
+        "publishedAt": "2026-05-23",
+        "note": "Community pick from Xiaohongshu (9 images in the original note). Prompt transcribed verbatim from the note text — no rewriting, only the author's intro chatter and hashtags were removed. Attribution stays with the original author."
+      },
+      "assets": {
+        "cover": "../assets/outdoor/xhs-photo-edit-02476f.webp",
+        "images": [
+          "../assets/outdoor/xhs-photo-edit-02476f.webp"
+        ]
+      },
+      "preview": "![AI治好了我的近视，废片秒变电影感氛围大片](../assets/outdoor/xhs-photo-edit-02476f.webp)",
+      "license": "source-attributed-curation",
+      "createdAt": "2026-10-09T18:37:57+08:00",
+      "updatedAt": "2026-10-09T18:37:57+08:00"
+    },
+    {
+      "id": "outdoor-geo-map-033f8a",
+      "title": "不用codex，户外照也能一键变水彩拼贴",
+      "titleEn": "Travel Photo Geo Map",
+      "category": "outdoor",
+      "subCategory": "geo-map",
+      "scene": "旅行照片再创作（地理地图叠加）",
+      "description": "三步流程：原图生成3:2水彩插画、做文字排版、拼成3:4竖版，需上传照片。",
+      "language": "zh-CN",
+      "modelHints": [
+        "image-edit",
+        "gpt-image",
+        "nano-banana",
+        "reference-image"
+      ],
+      "needsReferenceImage": true,
+      "tags": [
+        "户外",
+        "旅行摄影",
+        "我的地图拼贴照",
+        "我的户外小zine",
+        "点亮户外新地图",
+        "AI生成",
+        "户外摄影",
+        "水彩插画",
+        "AI绘画",
+        "小红书设计大赛",
+        "geo-map",
+        "社区精选"
+      ],
+      "prompt": "第1步 · 生成水彩插画（图生图，以原图为唯一参考，生成 3:2 横版）\n提示词：复古水彩旅行插画，高级手账风格，暖米色纸张底色（色值 F0E8D8）。严格按原图重绘，保留所有元素与构图，不增不改。左上角留出大面积纯净暖米色空白，水彩自然晕染过渡到边缘。手绘水彩，低饱和，柔和晕染，纸张纹理，无描边无卡通感，无文字水印。\n\n第2步 · 文字排版（用 PIL 或 Canvas 精确控制坐标）\n•标题：衬线粗体，字号为画面宽度 5%，距顶 4%，单行 \"Hiking\"，色值 3A4050\n•文案：衬线斜体，字号为标题 1/4，紧贴标题下方（间距为标题字号 0.2 倍）\"Find balance in the crossing.\"，色值 5F6473\n•分隔线：文案下方，长度为画面宽度 6%，粗 2px\n•地点：衬线常规体，字号为文案 0.85 倍，分隔线下方（真实地点优先，不确定用泛称）\n•色块：左下角横排 6 个方形，边长画面宽度 2%，从原图提取代表色（天空/植被/花卉/建筑/土质/米色/深墨），带 1px 半透明深灰描边\n•配色：标题、分隔线、地点用 3A4050；文案用 5F6473\n•硬约束：所有文字落在左上留白区内，不与建筑、人物、密集植被重叠；留白不够就缩标题字号，不压画\n\n第3步 · 上下拼接\n•上半原图居中裁 3:2，下半水彩文字面板 3:2，合成 3:4 竖版，上下各占 50%\n•拼接处 40px 羽化渐变过渡，无硬线无白线\n•四角圆角半径为画面宽度 1.2%\n•画布底色取水彩面板左上角暖米色 F0E8D8",
+      "source": {
+        "platform": "xiaohongshu",
+        "url": "https://www.xiaohongshu.com/explore/6a85b7a00000000033033f8a",
+        "title": "不用codex，户外照也能一键变水彩拼贴",
+        "author": "立冬 Lean",
+        "publishedAt": "2026-08-19",
+        "note": "Community pick from Xiaohongshu (18 images in the original note). Prompt transcribed verbatim from the note text — no rewriting, only the author's intro chatter and hashtags were removed. Attribution stays with the original author."
+      },
+      "assets": {
+        "cover": "../assets/outdoor/xhs-geo-map-033f8a.webp",
+        "images": [
+          "../assets/outdoor/xhs-geo-map-033f8a.webp"
+        ]
+      },
+      "preview": "![不用codex，户外照也能一键变水彩拼贴](../assets/outdoor/xhs-geo-map-033f8a.webp)",
+      "license": "source-attributed-curation",
+      "createdAt": "2026-10-09T18:37:57+08:00",
+      "updatedAt": "2026-10-09T18:37:57+08:00"
+    },
+    {
+      "id": "outdoor-geo-map-00ee54",
+      "title": "给旅行照片加上地图📍这个玩法有点意思",
+      "titleEn": "Travel Photo Geo Map",
+      "category": "outdoor",
+      "subCategory": "geo-map",
+      "scene": "旅行照片再创作（地理地图叠加）",
+      "description": "给上传的旅行照片叠加透明地图图层，自动推测拍摄地并标红点，需照片和地点。",
+      "language": "zh-CN",
+      "modelHints": [
+        "image-edit",
+        "gpt-image",
+        "nano-banana",
+        "reference-image"
+      ],
+      "needsReferenceImage": true,
+      "tags": [
+        "户外",
+        "旅行摄影",
+        "摄影",
+        "ChatGPT",
+        "AI摄影",
+        "摄影后期",
+        "地图设计",
+        "AIGC",
+        "旅行记录",
+        "vibecoding",
+        "geo-map",
+        "社区精选"
+      ],
+      "prompt": "请将用户上传的旅行照片制作成一张具有独立杂志（Editorial Photography / Travel Zine）风格的地理视觉作品。\n\n根据照片中的地标、建筑、自然景观等视觉线索推测大致位置。无法确认时不要虚构精确坐标。\n\n核心要求：\n\n1. 完整保留原始照片。 原图是不可修改的摄影底图\n2. 根据拍摄地点及照片场景，选择具有真实地理特征的地图元素，例如海岸线、城市街道、山脉轮廓、等高线、河流或步道。优先选择与照片内容相关的地理元素。\n3. 地图采用透明图层叠加的视觉效果，而不是传统的方形地图卡片。地图应像独立设计图层一样自然地融入照片。\n4. 地图优先放置在天空、海面或其他负空间，不遮挡人物、建筑及重要摄影主体。\n5. 地图占画面约 15%～25%，可根据照片构图灵活调整大小、位置和形态。\n6. 采用精细线条、低饱和度配色，搭配少量英文地名、地理标记及克制的排版设计。地图应具有轻微的纸张印刷质感。\n7. 使用一个小红点标记拍摄地点。如果没有准确 GPS 信息，只标记大致区域，不要伪造精确坐标。\n8. 保留照片原始画幅比例，不强制裁切为正方形，不改变原始摄影构图。\n9. 整体风格克制、自然、简洁，具有独立摄影杂志和旅行手账的视觉气质。不要添加大面积标题、多余装饰或复杂边框。\n\n地图模式：\n\n根据照片内容自动选择最合适的地图表达方式：\n\n* 山地摄影：山脉轮廓、等高线、登山步道。\n* 海岸摄影：真实海岸线、海湾轮廓、地理标记。\n* 城市摄影：城市街道、河流、街区结构。\n* 其他场景：根据地理环境选择合适的地图元素。",
+      "source": {
+        "platform": "xiaohongshu",
+        "url": "https://www.xiaohongshu.com/explore/6ac84ce2000000000200ee54",
+        "title": "给旅行照片加上地图📍这个玩法有点意思",
+        "author": "Retouchr（热透）-AI拼贴AI修图仿色",
+        "publishedAt": "2026-10-09",
+        "note": "Community pick from Xiaohongshu (3 images in the original note). Prompt transcribed verbatim from the note text — no rewriting, only the author's intro chatter and hashtags were removed. Attribution stays with the original author."
+      },
+      "assets": {
+        "cover": "../assets/outdoor/xhs-geo-map-00ee54.webp",
+        "images": [
+          "../assets/outdoor/xhs-geo-map-00ee54.webp"
+        ]
+      },
+      "preview": "![给旅行照片加上地图📍这个玩法有点意思](../assets/outdoor/xhs-geo-map-00ee54.webp)",
+      "license": "source-attributed-curation",
+      "createdAt": "2026-10-09T18:37:57+08:00",
+      "updatedAt": "2026-10-09T18:37:57+08:00"
+    },
+    {
+      "id": "outdoor-travel-poster-02d8f3",
+      "title": "当我把秋天的新疆放进AI",
+      "titleEn": "Travel Poster",
+      "category": "outdoor",
+      "subCategory": "travel-poster",
+      "scene": "旅行照片再创作（旅行海报）",
+      "description": "将上传原图做成3:4竖版上下各半旅行海报，下半用丝网印刷风版画加英文标题。",
+      "language": "zh-CN",
+      "modelHints": [
+        "image-edit",
+        "gpt-image",
+        "nano-banana",
+        "reference-image"
+      ],
+      "needsReferenceImage": true,
+      "tags": [
+        "户外",
+        "旅行摄影",
+        "南疆旅行",
+        "新疆旅行",
+        "AI进化生活howto",
+        "把照片交给AI",
+        "AI教程",
+        "AI生图",
+        "AI提示词",
+        "妙游记",
+        "travel-poster",
+        "社区精选"
+      ],
+      "prompt": "请基于我上传的原始照片，生成一张 3:4 竖版旅行艺术海报，整体采用上下各约 50% 的双联画构图。上半部分必须直接保留我提供的原始照片，原图真实性是最高优先级：不要 AI 重绘、不要改变人物或动物的长相、动作、姿态、数量、服装、环境、光线和颜色，不美化、不调色、不加滤镜，只允许为了适配画布进行必要的等比缩放或裁切，绝不能把原图重新生成成一张“相似照片”。\n\n下半部分使用暖米色 / 象牙白色纸张背景，根据上方原照片重新创作一幅小巧精致的旅行艺术版画。提取原图最有辨识度的主体、轮廓、动作、景观和空间关系，适度简化细节，但保持一眼能够认出来自同一张照片。插画采用 Risograph / screen print / vintage travel print 风格，带轻微颗粒、粗糙笔触、纸张纹理和低保真印刷质感，颜色直接从原照片提取，限制在 2–4 种克制、自然、不饱和的颜色。插画不要铺满下半部分，尺寸小而精致，居中偏上，四周保留大量干净留白。\n\n插画下方居中加入一个简短的英文大写标题，根据照片内容自动生成 1–3 个词；再下一行加入三个小写英文关键词，格式为“word / word / word”。字体使用小型复古打字机 / editorial serif 风格，克制、不抢画面。\n\n整体效果像一本高级独立旅行摄影集或艺术杂志中的一页：清爽、明亮、克制、有旅行感和收藏感。不要卡通、不要动漫、不要 3D、不要普通照片滤镜、不要商业旅游宣传海报感、不要复杂装饰。最重要的是：上半部分必须是真实原图本身，下半部分才进行艺术化再创作。",
+      "source": {
+        "platform": "xiaohongshu",
+        "url": "https://www.xiaohongshu.com/explore/6aa50305000000002502d8f3",
+        "title": "当我把秋天的新疆放进AI",
+        "author": "妙游记",
+        "publishedAt": "2026-09-12",
+        "note": "Community pick from Xiaohongshu (9 images in the original note). Prompt transcribed verbatim from the note text — no rewriting, only the author's intro chatter and hashtags were removed. Attribution stays with the original author."
+      },
+      "assets": {
+        "cover": "../assets/outdoor/xhs-travel-poster-02d8f3.webp",
+        "images": [
+          "../assets/outdoor/xhs-travel-poster-02d8f3.webp"
+        ]
+      },
+      "preview": "![当我把秋天的新疆放进AI](../assets/outdoor/xhs-travel-poster-02d8f3.webp)",
+      "license": "source-attributed-curation",
+      "createdAt": "2026-10-09T18:37:57+08:00",
+      "updatedAt": "2026-10-09T18:37:57+08:00"
+    },
+    {
+      "id": "outdoor-geo-map-027cbb",
+      "title": "太顶了！用GPT给旅游照片加上地理坐标",
+      "titleEn": "Travel Photo Geo Map",
+      "category": "outdoor",
+      "subCategory": "geo-map",
+      "scene": "旅行照片再创作（地理地图叠加）",
+      "description": "把旅行照片做成杂志风地理视觉作品，叠加地图图层标出拍摄地，需照片和地点。",
+      "language": "zh-CN",
+      "modelHints": [
+        "image-edit",
+        "gpt-image",
+        "nano-banana",
+        "reference-image"
+      ],
+      "needsReferenceImage": true,
+      "tags": [
+        "户外",
+        "旅行摄影",
+        "AI工具",
+        "ai关键词",
+        "gptimage2",
+        "AI生成",
+        "gptimage",
+        "GPT",
+        "提示词分享",
+        "ai提示词",
+        "geo-map",
+        "社区精选"
+      ],
+      "prompt": "提示词：\n请帮我把这张旅行摄影作品制作成一张具有独立杂志（Editorial Photography / Travel Zine）风格的地理视觉作品。\n拍摄地点：【填写城市、景点或 GPS 坐标】\n核心要求：\n1. 尽可能完整保留原始照片，不重新创作人物、建筑、山体、天空，不改变原有色彩和光影。\n2. 根据拍摄地点，添加具有真实地理特征的地图元素，例如海岸线、城市街道、山脉地形、等高线或步道。\n3. 地图采用透明 PNG 图层叠加的视觉效果，避免传统方形地图卡片。\n4. 地图优先放在天空、海面或其他负空间，不遮挡摄影主体。\n5. 地图占画面约 15%–25%，可以根据构图自由调整。\n6. 使用细线条、低饱和度配色、少量英文地名和精致的地理标记。\n7. 用一个小红点标出拍摄地点。如果没有准确 GPS，请只标注大致区域，不要伪造精确坐标。\n8. 保留照片原始画幅比例，不强制裁切成正方形。\n9. 整体风格克制、自然、有纸张印刷的轻微质感，不要添加大面积标题或多余装饰。\n地图模式请根据照片情况自动选择如城市山川海岸线等。\n请优先保证原摄影作品的完整性，地图只是辅助视采用独立图层合成，而不是重新生成整张照片。\n-\n生图工具：hisider(使用方法见图9)\n生图模型：gptimage2.5\n使用方法：\n将旅行图和提示词发送给GPT即可生图～",
+      "source": {
+        "platform": "xiaohongshu",
+        "url": "https://www.xiaohongshu.com/explore/6ac8bad4000000000a027cbb",
+        "title": "太顶了！用GPT给旅游照片加上地理坐标",
+        "author": "悠悠AI百宝箱",
+        "publishedAt": "2026-10-09",
+        "note": "Community pick from Xiaohongshu (7 images in the original note). Prompt transcribed verbatim from the note text — no rewriting, only the author's intro chatter and hashtags were removed. Attribution stays with the original author."
+      },
+      "assets": {
+        "cover": "../assets/outdoor/xhs-geo-map-027cbb.webp",
+        "images": [
+          "../assets/outdoor/xhs-geo-map-027cbb.webp"
+        ]
+      },
+      "preview": "![太顶了！用GPT给旅游照片加上地理坐标](../assets/outdoor/xhs-geo-map-027cbb.webp)",
+      "license": "source-attributed-curation",
+      "createdAt": "2026-10-09T18:37:57+08:00",
+      "updatedAt": "2026-10-09T18:37:57+08:00"
+    },
+    {
+      "id": "outdoor-geo-map-000866",
+      "title": "自然探索杂志风格海报｜提示词分享",
+      "titleEn": "Travel Photo Geo Map",
+      "category": "outdoor",
+      "subCategory": "geo-map",
+      "scene": "旅行照片再创作（地理地图叠加）",
+      "description": "生成4:5竖版自然探索杂志海报，需填地点名称，含超大英文标题与极简地理信息。",
+      "language": "zh-CN",
+      "modelHints": [
+        "image-edit",
+        "gpt-image",
+        "nano-banana",
+        "reference-image"
+      ],
+      "needsReferenceImage": true,
+      "tags": [
+        "户外",
+        "旅行摄影",
+        "为山峰做一次创作",
+        "数字艺术",
+        "创意海报",
+        "自然风光",
+        "探索自然之美",
+        "AI进化生活howto",
+        "geo-map",
+        "社区精选",
+        "参考图编辑"
+      ],
+      "prompt": "提示词：请生成一张以【地点名称】为主题的电影感极简旅行海报，整体为 4:5 竖版构图。画面质感参考高端自然探索杂志封面与奢华旅行摄影：真实、壮阔、克制，具有环境叙事感和博物馆级平面设计质感。\n画面主体选择该地点最具代表性的自然景观，例如雪山、峡谷、火山、冰川、湖泊、海岸或沙漠。主体位于画面下方或中下区域，具有强烈的尺度感和空间纵深；上方保留大面积干净留白，用于承载标题与天空氛围。整体构图平衡、有呼吸感，不要普通旅游宣传图。\n在背景中融入超大、粗壮、窄体无衬线英文标题“【英文地点名】”，标题纵向延伸并占据大部分画面高度，与山脊、云层或地貌自然叠压、局部被遮挡，像画面本身的一部分。字体现代、厚重、利落，颜色根据环境调整为低饱和暖白、灰白或岩石色，不要描边、投影或花哨字体。\n画面边缘可少量加入极简地理信息：地点名称、所属地区、经纬度、海拔 / 深度 / 面积等一两项数据，使用细小的英文无衬线字体、短横线和简洁分隔线即可。信息排版克制，不要复杂仪表盘、乱码、品牌 logo 或水印。\n使用超写实风景摄影质感：电影级光影、自然雾气、空气透视、柔和体积光、细腻环境纹理、高动态范围与高级胶片调色。配色基于地点本身的自然颜色，整体低饱和、高级、不浮夸。8K 细节，清晰对焦，极具沉浸感。",
+      "source": {
+        "platform": "xiaohongshu",
+        "url": "https://www.xiaohongshu.com/explore/6a9a87ff000000002b000866",
+        "title": "自然探索杂志风格海报｜提示词分享",
+        "author": "脆脆鲨AIGC",
+        "publishedAt": "2026-09-04",
+        "note": "Community pick from Xiaohongshu (3 images in the original note). Prompt transcribed verbatim from the note text — no rewriting, only the author's intro chatter and hashtags were removed. Attribution stays with the original author."
+      },
+      "assets": {
+        "cover": "../assets/outdoor/xhs-geo-map-000866.webp",
+        "images": [
+          "../assets/outdoor/xhs-geo-map-000866.webp"
+        ]
+      },
+      "preview": "![自然探索杂志风格海报｜提示词分享](../assets/outdoor/xhs-geo-map-000866.webp)",
+      "license": "source-attributed-curation",
+      "createdAt": "2026-10-09T18:37:57+08:00",
+      "updatedAt": "2026-10-09T18:37:57+08:00"
+    },
+    {
+      "id": "outdoor-collage-016858",
+      "title": "用GPT images2.5打开一种很新的p图方式💙",
+      "titleEn": "Travel Photo Collage",
+      "category": "outdoor",
+      "subCategory": "collage",
+      "scene": "旅行照片再创作（实景拼贴）",
+      "description": "将上传照片做成3:4竖版双联海报，下半摄影剪贴主体加黑线小人互动与英文文案。",
+      "language": "zh-CN",
+      "modelHints": [
+        "image-edit",
+        "gpt-image",
+        "nano-banana",
+        "reference-image"
+      ],
+      "needsReferenceImage": true,
+      "tags": [
+        "户外",
+        "旅行摄影",
+        "我的地图拼贴照",
+        "howto拯救废片",
+        "AI生图",
+        "这个模版太绝了",
+        "给照片加点涂鸦",
+        "有趣的照片分享给有趣的人",
+        "双人写真",
+        "旅行日记",
+        "collage",
+        "社区精选"
+      ],
+      "prompt": "【通用提示词】\n请将我上传的照片制作成一张独立的3:4竖版设计海报，整体分为上下两个区域，上下高度严格1:1，各占画面50%。\n上半部分保留原照片的主体、构图、动作、空间关系、自然光影和真实质感，不得拉伸、扭曲或改变主体。\n下半部分使用米白色或从原图中提取的浅色背景，并保留充足留白。提取照片中最有辨识度、最能代表原图故事的主体，制作成保留真实材质、颜色、姿态和比例的摄影剪贴主体。\n\n根据原图中的动作、关系或情绪，在主体周围加入少量极简黑色手绘线稿小人。小人的行为必须与主体产生真实互动，例如攀爬、观察、搬运、牵引、修补、追逐或探索，像是在继续讲述照片里的故事，不要随意堆放装饰。\n加入一句根据画面含义自然生成的简短英文手写文案，轻松、有趣，可以带一点双关或画外音感。文字沿着主体轮廓、动作方向或留白区域自然排列，不要做成醒目的大标题。\n\n整体呈现真实摄影剪贴＋稚拙黑线涂鸦的独立杂志风格，画面干净、明亮、克制，保留轻微胶片颗粒与手工拼贴感。不要商业广告质感，不要精修塑料感，不要复杂插画，不要密集小人，不要边框、Logo和水印。",
+      "source": {
+        "platform": "xiaohongshu",
+        "url": "https://www.xiaohongshu.com/explore/6a9a89f30000000026016858",
+        "title": "用GPT images2.5打开一种很新的p图方式💙",
+        "author": "蛋挞只是经过",
+        "publishedAt": "2026-09-04",
+        "note": "Community pick from Xiaohongshu (4 images in the original note). Prompt transcribed verbatim from the note text — no rewriting, only the author's intro chatter and hashtags were removed. Attribution stays with the original author."
+      },
+      "assets": {
+        "cover": "../assets/outdoor/xhs-collage-016858.webp",
+        "images": [
+          "../assets/outdoor/xhs-collage-016858.webp"
+        ]
+      },
+      "preview": "![用GPT images2.5打开一种很新的p图方式💙](../assets/outdoor/xhs-collage-016858.webp)",
+      "license": "source-attributed-curation",
+      "createdAt": "2026-10-09T18:37:57+08:00",
+      "updatedAt": "2026-10-09T18:37:57+08:00"
+    },
+    {
+      "id": "outdoor-color-grade-028015",
+      "title": "摄影错过了日照金山？一组AI提示词搞定！",
+      "titleEn": "Color Grade Transfer",
+      "category": "outdoor",
+      "subCategory": "color-grade",
+      "scene": "旅行照片再创作（色调风格迁移）",
+      "description": "保留原图主体构图，重构成日照金山冷暖对冲的电影级光影调色，需上传照片。",
+      "language": "zh-CN",
+      "modelHints": [
+        "image-edit",
+        "gpt-image",
+        "nano-banana",
+        "reference-image"
+      ],
+      "needsReferenceImage": true,
+      "tags": [
+        "户外",
+        "旅行摄影",
+        "摄影",
+        "修图前vs修图后",
+        "AI修图",
+        "风景照",
+        "color-grade",
+        "社区精选",
+        "参考图编辑"
+      ],
+      "prompt": "AI提示词：保留原图主体与构图不变，进行光影与色彩的风格化重构，打造电影级日照金山质感。采用日落黄金时刻侧逆光，主光源从画面侧方斜向照射，形成强烈的冷暖分区照明；山峰受光面被暖金色阳光完全照亮，形成清晰的日照金山效果，背光面与山谷被深邃的冷调阴影包裹，光影对比强烈，塑造出山脉凌厉的立体感与层次感；高光与受光面呈现浓郁的暖橙、焦糖金、橘红色调，云层与山峰被阳光染成热烈的橙金色；阴影与背光面呈现深邃的冷调青蓝、湖蓝色，天空呈现低饱和的灰绿 / 浅青底色，整体形成强烈而平衡的冷暖对冲；画面添加轻微的 35mm 电影胶片颗粒感，画面细节丰富，山峰岩石的肌理、森林的层次、云层的动态都清晰可辨；整体氛围壮丽、静谧、震撼，充满史诗感与电影剧照般的叙事张力，兼具自然的原始野性与高级的艺术质感。",
+      "source": {
+        "platform": "xiaohongshu",
+        "url": "https://www.xiaohongshu.com/explore/69ef407f0000000035028015",
+        "title": "摄影错过了日照金山？一组AI提示词搞定！",
+        "author": "喵呜老师",
+        "publishedAt": "2026-04-27",
+        "note": "Community pick from Xiaohongshu (4 images in the original note). Prompt transcribed verbatim from the note text — no rewriting, only the author's intro chatter and hashtags were removed. Attribution stays with the original author."
+      },
+      "assets": {
+        "cover": "../assets/outdoor/xhs-color-grade-028015.webp",
+        "images": [
+          "../assets/outdoor/xhs-color-grade-028015.webp"
+        ]
+      },
+      "preview": "![摄影错过了日照金山？一组AI提示词搞定！](../assets/outdoor/xhs-color-grade-028015.webp)",
+      "license": "source-attributed-curation",
+      "createdAt": "2026-10-09T18:37:57+08:00",
+      "updatedAt": "2026-10-09T18:37:57+08:00"
+    },
+    {
+      "id": "outdoor-photo-edit-02160b",
+      "title": "国庆用这个skill记录旅行太好看了吧！",
+      "titleEn": "Magazine Look Photo Edit",
+      "category": "outdoor",
+      "subCategory": "photo-edit",
+      "scene": "旅行照片再创作（杂志感修图）",
+      "description": "把上传照片做成3:4竖版撕纸破洞画面，纸上绘黑钢笔小人与英文短句。",
+      "language": "zh-CN",
+      "modelHints": [
+        "image-edit",
+        "gpt-image",
+        "nano-banana",
+        "reference-image"
+      ],
+      "needsReferenceImage": true,
+      "tags": [
+        "户外",
+        "旅行摄影",
+        "codex",
+        "ai",
+        "vibecoding",
+        "skill",
+        "旅行",
+        "户外色卡拼图",
+        "skill分享",
+        "在记忆中闪光的旅行时刻",
+        "旅游新方式",
+        "旅行的记忆"
+      ],
+      "prompt": "请先判断照片中最有辨识度、最适合用于互动的真实元素，再为它设计对应的互动。每张照片的构思都应随场景变化。\n3:4竖版，实拍风景，浅奶油肌理纸张覆盖画面局部，纸上有多处大小错落的不规则撕纸破洞，洞口边缘带有粗糙纸纤维毛边与轻微厚度阴影。透过破洞可以看见后方完整的实拍风景，保留原图光影、色彩和细节。纸面上绘制少量黑色钢笔简笔小人和部分照片遮住部分的手绘，小人在洞口边缘，小人不是装饰，而是这个第二世界里的“使用者”。他们必须真正与照片中的物理结构互动，而不是站在旁边摆姿势。线条灵动自然。纸面左下角手写一句简短英文短句，字迹柔和，不遮挡主体。整体自然光统一，画面层次丰富，干净高级，高清细节。",
+      "source": {
+        "platform": "xiaohongshu",
+        "url": "https://www.xiaohongshu.com/explore/6abccb51000000000a02160b",
+        "title": "国庆用这个skill记录旅行太好看了吧！",
+        "author": "贩卖日常的小鱼",
+        "publishedAt": "2026-09-30",
+        "note": "Community pick from Xiaohongshu (6 images in the original note). Prompt transcribed verbatim from the note text — no rewriting, only the author's intro chatter and hashtags were removed. Attribution stays with the original author."
+      },
+      "assets": {
+        "cover": "../assets/outdoor/xhs-photo-edit-02160b.webp",
+        "images": [
+          "../assets/outdoor/xhs-photo-edit-02160b.webp"
+        ]
+      },
+      "preview": "![国庆用这个skill记录旅行太好看了吧！](../assets/outdoor/xhs-photo-edit-02160b.webp)",
+      "license": "source-attributed-curation",
+      "createdAt": "2026-10-09T18:37:57+08:00",
+      "updatedAt": "2026-10-09T18:37:57+08:00"
+    },
+    {
+      "id": "outdoor-geo-map-0076d4",
+      "title": "《国家地理》老法师色调，用Ai调出来了！",
+      "titleEn": "Travel Photo Geo Map",
+      "category": "outdoor",
+      "subCategory": "geo-map",
+      "scene": "旅行照片再创作（地理地图叠加）",
+      "description": "复刻国家地理纪实摄影调色，色彩浓郁厚重、光影立体硬朗，适合风光人文照片。",
+      "language": "zh-CN",
+      "modelHints": [
+        "image-edit",
+        "gpt-image",
+        "nano-banana",
+        "reference-image"
+      ],
+      "needsReferenceImage": true,
+      "tags": [
+        "户外",
+        "旅行摄影",
+        "Ai调色",
+        "调色前后",
+        "geo-map",
+        "社区精选",
+        "参考图编辑"
+      ],
+      "prompt": "提示词“复刻《国家地理》经典纪实摄影调色风格，主打真实、浓郁、立体、复古的人文自然质感，全局色彩还原精准、饱和度适中偏高，原色通透扎实、真实耐看，无滤镜虚假感。画面对比度高级硬朗、光影层次立体分明，风光色彩浓郁饱满，蓝天通透、绿植鲜活、大地色调醇厚复古；人物纪实肤色自然真实、质感立体。暗部细节丰富、深邃干净，高光通透柔和、细节保留完整，全画面动态范围充足、容错度高。整体画面复古大气、纪实感浓厚、视觉冲击力强，兼具自然治愈与人文厚重质感，是自然风光、旅行纪实、人文扫街的顶级经典万能色调，高级经典、永不过时。”",
+      "source": {
+        "platform": "xiaohongshu",
+        "url": "https://www.xiaohongshu.com/explore/6a6af34d000000000f0076d4",
+        "title": "《国家地理》老法师色调，用Ai调出来了！",
+        "author": "🎨",
+        "publishedAt": "2026-07-30",
+        "note": "Community pick from Xiaohongshu (4 images in the original note). Prompt transcribed verbatim from the note text — no rewriting, only the author's intro chatter and hashtags were removed. Attribution stays with the original author."
+      },
+      "assets": {
+        "cover": "../assets/outdoor/xhs-geo-map-0076d4.webp",
+        "images": [
+          "../assets/outdoor/xhs-geo-map-0076d4.webp"
+        ]
+      },
+      "preview": "![《国家地理》老法师色调，用Ai调出来了！](../assets/outdoor/xhs-geo-map-0076d4.webp)",
+      "license": "source-attributed-curation",
+      "createdAt": "2026-10-09T18:37:57+08:00",
+      "updatedAt": "2026-10-09T18:37:57+08:00"
+    },
+    {
+      "id": "outdoor-color-grade-015c95",
+      "title": "AI直出！自然风光摄影大片",
+      "titleEn": "Color Grade Transfer",
+      "category": "outdoor",
+      "subCategory": "color-grade",
+      "scene": "旅行照片再创作（色调风格迁移）",
+      "description": "生成3:2画面意识流大师摄影图，荒原中东方女性回眸，含柔焦与疏离氛围。",
+      "language": "zh-CN",
+      "modelHints": [
+        "image-edit",
+        "gpt-image",
+        "nano-banana",
+        "reference-image"
+      ],
+      "needsReferenceImage": true,
+      "tags": [
+        "户外",
+        "旅行摄影",
+        "AI生成",
+        "广告摄影",
+        "广告大片",
+        "摄影美图",
+        "ai关键词",
+        "自然风景摄影",
+        "超现实场景",
+        "商业人像拍摄",
+        "旅行摄影大片",
+        "color-grade"
+      ],
+      "prompt": "帮我生成图片：大师级艺术摄影，意识流叙事感，低角度仰拍，广袤荒芜的草甸与荒原交界处，强风，草浪翻涌，一位气质清冷的东方女性，她以四分之三角度在狂风中蓦然回眸，眼神深邃空茫，捕捉细腻情绪，光线与阴影深度交融融合，中景，广角镜头，捕捉环境与人物的张力。选择性浅景深，前景草甸强烈虚化，口令：背景荒原适度柔焦，营造潜意识流动感，柔光镜效果，高光处散发微妙光晕，柔化过渡，梦幻而超现实，强烈的存在主义疏离感 ，画面充满静谧的张力， 摄影大师级构图，独特个性视角，超高分辨率，极致丰富的细节，电影级氛围渲染，2:3。",
+      "source": {
+        "platform": "xiaohongshu",
+        "url": "https://www.xiaohongshu.com/explore/6a7c55c70000000025015c95",
+        "title": "AI直出！自然风光摄影大片",
+        "author": "AIGC天狼",
+        "publishedAt": "2026-08-12",
+        "note": "Community pick from Xiaohongshu (6 images in the original note). Prompt transcribed verbatim from the note text — no rewriting, only the author's intro chatter and hashtags were removed. Attribution stays with the original author."
+      },
+      "assets": {
+        "cover": "../assets/outdoor/xhs-color-grade-015c95.webp",
+        "images": [
+          "../assets/outdoor/xhs-color-grade-015c95.webp"
+        ]
+      },
+      "preview": "![AI直出！自然风光摄影大片](../assets/outdoor/xhs-color-grade-015c95.webp)",
+      "license": "source-attributed-curation",
+      "createdAt": "2026-10-09T18:37:57+08:00",
+      "updatedAt": "2026-10-09T18:37:57+08:00"
+    },
+    {
+      "id": "outdoor-collage-01c12e",
+      "title": "这个skill审美恐在你我之上｜附提示词",
+      "titleEn": "Travel Photo Collage",
+      "category": "outdoor",
+      "subCategory": "collage",
+      "scene": "旅行照片再创作（实景拼贴）",
+      "description": "将照片做成3:5竖版实景拼贴海报，手撕纸区域加黑色剪影与单色块。",
+      "language": "zh-CN",
+      "modelHints": [
+        "image-edit",
+        "gpt-image",
+        "nano-banana",
+        "reference-image"
+      ],
+      "needsReferenceImage": true,
+      "tags": [
+        "户外",
+        "旅行摄影",
+        "AI创作",
+        "照片改造",
+        "旅行影像",
+        "拼贴设计",
+        "分享提示词",
+        "我这行的AI路",
+        "ai关键词",
+        "艺术审美",
+        "灵感分享",
+        "超现实"
+      ],
+      "prompt": "【提示词】\n将照片制作成3:5竖版实景拼贴海报。保留主体、自然光影和关键空间关系，将真实照片处理成不规则手撕纸区域，并延展至暖米白纹理纸背景。提取道路、河流、摊位或建筑轮廓，用简化的黑色剪影和一种高饱和色块延续画面动线，搭配大面积留白与一行极小英文打字机文字。整体呈现独立艺术杂志、丝网印刷和旧纸张质感。避免完整平铺原图、密集插画、大标题、多种亮色、Logo和水印。\n\nSkill来源：Zeejay0/gathered-scenes-zine-skill",
+      "source": {
+        "platform": "xiaohongshu",
+        "url": "https://www.xiaohongshu.com/explore/6aa943b2000000002601c12e",
+        "title": "这个skill审美恐在你我之上｜附提示词",
+        "author": "魔法肉头儿",
+        "publishedAt": "2026-09-15",
+        "note": "Community pick from Xiaohongshu (6 images in the original note). Prompt transcribed verbatim from the note text — no rewriting, only the author's intro chatter and hashtags were removed. Attribution stays with the original author."
+      },
+      "assets": {
+        "cover": "../assets/outdoor/xhs-collage-01c12e.webp",
+        "images": [
+          "../assets/outdoor/xhs-collage-01c12e.webp"
+        ]
+      },
+      "preview": "![这个skill审美恐在你我之上｜附提示词](../assets/outdoor/xhs-collage-01c12e.webp)",
+      "license": "source-attributed-curation",
+      "createdAt": "2026-10-09T18:37:57+08:00",
+      "updatedAt": "2026-10-09T18:37:57+08:00"
     }
   ]
 }

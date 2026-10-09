@@ -42,6 +42,26 @@
           "id": "geo-map",
           "name": "地理地图叠加",
           "nameEn": "Geo Map Overlay"
+        },
+        {
+          "id": "postcard",
+          "name": "明信片双联",
+          "nameEn": "Postcard Diptych"
+        },
+        {
+          "id": "collage",
+          "name": "实景拼贴",
+          "nameEn": "Photo Collage"
+        },
+        {
+          "id": "photo-edit",
+          "name": "杂志感修图",
+          "nameEn": "Magazine Look Edit"
+        },
+        {
+          "id": "color-grade",
+          "name": "色调风格迁移",
+          "nameEn": "Color Grade Transfer"
         }
       ]
     }
